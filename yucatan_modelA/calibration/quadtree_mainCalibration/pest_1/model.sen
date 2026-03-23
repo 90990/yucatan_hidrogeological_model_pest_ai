@@ -1,0 +1,43 @@
+                    PARAMETER SENSITIVITIES: CASE model
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 1   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   mfgw_rest       pargp        1.00000000000        0.000450181069652   
+   mfgw_upland     pargp        1.00000000000        0.000773094467657   
+   mk_rest_l1      pargp        1.00000000000        0.00959984998404    
+   mk_rest_l2      pargp        1.00000000000        0.0754526737685     
+   mr_rest         pargp        1.00000000000        0.0870820838298     
+   mr_upland       pargp        1.00000000000        0.0255575209377     
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 2   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   mfgw_rest       pargp        1.00821637500        0.00130856467255    
+   mfgw_upland     pargp        0.996640317040       0.00100792117268    
+   mk_rest_l1      pargp        1.02933546030        0.0141203750415     
+   mk_rest_l2      pargp        1.29064901870        0.0981528676273     
+   mr_rest         pargp        1.80000000000        0.126093793199      
+   mr_upland       pargp        0.468887957000       0.00899126198674    
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 3   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   mfgw_rest       pargp        1.00513393600        0.000421240875836   
+   mfgw_upland     pargp        0.981820056200       0.000856921909521   
+   mk_rest_l1      pargp        0.958353594400       0.0129790350757     
+   mk_rest_l2      pargp        1.37397664610        0.0927893726808     
+   mr_rest         pargp        1.80000000000        0.117929294085      
+   mr_upland       pargp        0.343726159000       0.00652650173561    
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 4   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   mfgw_rest       pargp        1.00025660500        0.000960737831098   
+   mfgw_upland     pargp        0.957310620680       0.000372834864498   
+   mk_rest_l1      pargp        0.911810570600       0.0146209818879     
+   mk_rest_l2      pargp        1.35862168320        0.0937779656784     
+   mr_rest         pargp        1.80000000000        0.119664900208      
+   mr_upland       pargp        0.272331251000       0.00477723604845    
+
+

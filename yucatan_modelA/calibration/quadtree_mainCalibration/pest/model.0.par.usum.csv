@@ -1,0 +1,6 @@
+name,prior_mean,prior_stdev,prior_lower_bound,prior_upper_bound,post_mean,post_stdev,post_lower_bound,post_upper_bound
+mfgw,0,0.25,-0.5,0.5,0,0.249983,-0.499966,0.499966
+mk_rest_l1,0,0.325257,-0.650515,0.650515,0,0.323821,-0.647641,0.647641
+mk_rest_l2,0,0.325257,-0.650515,0.650515,0,0.222548,-0.445095,0.445095
+mr_rest,0,0.25,-0.5,0.5,0,0.187452,-0.374904,0.374904
+mr_upland,0,0.25,-0.5,0.5,0,0.24238,-0.48476,0.48476
