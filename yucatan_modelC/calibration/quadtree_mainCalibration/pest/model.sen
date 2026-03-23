@@ -1,0 +1,36 @@
+                    PARAMETER SENSITIVITIES: CASE model
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 1   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   mfgw            pargp        1.00000000000        0.00182682961214    
+   mk_rest_l1      pargp        1.00000000000        0.00335353525826    
+   mk_rest_l2      pargp        1.00000000000        0.146452206284      
+   mk_upland_l1    pargp        1.00000000000        0.000372282964985   
+   mk_upland_l2    pargp        1.00000000000        0.00272845707980    
+   mr_rest         pargp        1.00000000000        0.155993196802      
+   mr_upland       pargp        1.00000000000        0.0401590244651     
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 2   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   mfgw            pargp        1.65010000000        0.00136994376318    
+   mk_rest_l1      pargp        0.669573369400       0.00150684289887    
+   mk_rest_l2      pargp        2.12667917630        0.127318698030      
+   mk_upland_l1    pargp        0.878418800918       0.000208908518350   
+   mk_upland_l2    pargp        0.600000000000       0.000990788110157   
+   mr_rest         pargp        2.00000000000        0.146250334405      
+   mr_upland       pargp        0.200000000000       0.00393857351378    
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 3   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   mfgw            pargp        1.66670000000        0.00130227164102    
+   mk_rest_l1      pargp        0.330000000000       0.00109318585205    
+   mk_rest_l2      pargp        2.20720223970        0.125798092079      
+   mk_upland_l1    pargp        0.779847010086       0.000169866393432   
+   mk_upland_l2    pargp        0.600000000000       0.000864257055410   
+   mr_rest         pargp        2.00000000000        0.139815508572      
+   mr_upland       pargp        0.200000000000       0.00387520636614    
+
+
