@@ -1,0 +1,1037 @@
+             pestpp-glm 5.2.24
+
+    by The PEST++ Development Team
+
+
+
+version: 5.2.24
+binary compiled on Nov 12 2025 at 12:05:03
+using control file: "model.pst"
+in directory: "C:\Users\sebas\Documents\AYUDANTE SNI\TESIS\yucatan_modelB\calibration\quadtree_mainCalibration\pest"
+on host: "NEO"
+on a(n) windows operating system
+with release configuration
+started at 04/10/26 11:20:25
+
+Note: 3 unused lines in pest control file:
+  -->  line number 6: '2.000000E+01  -3.000000E+00   3.000000E-01   1.000000E-02        -7' 
+  -->  line number 10: '0         0         0' 
+  -->  line number 12: '1' 
+
+    This software has been approved for release by the
+    U.S.Geological Survey(USGS).Although the software has 
+    been subjected to rigorous review, the USGS reserves the
+    right to update the software as needed pursuant to further
+    analysisand review.No warranty, expressed or implied, is 
+    made by the USGS or the U.S.Government as to the
+    functionality of the softwareand related material nor shall
+    the fact of release constitute any such warranty.
+    Furthermore, the software is released on condition that
+    neither the USGS nor the U.S.Government shall be held
+    liable for any damages resulting from its authorized 
+    or unauthorized use.
+
+
+pestmode:- 
+   estimation
+
+
+Case dimensions:- 
+    Number of parameters = 8
+    Number of adjustable parameters = 8
+    Number of observations = 135
+    Number of non-zero weighted observations = 135
+    Number of prior estimates = 0
+
+PEST Control Information
+    relparmax = 10
+    facparmax = 10
+    facorig = 0.001
+    phiredswh = 0.1
+    noptmax = 10
+    phiredstp = 0.01
+    nphistp = 3
+    nphinored = 3
+    relparstp = 0.01
+    nrelpar = 3
+
+
+    PEST++ OPTIONS: 
+
+...general options (used in multiple tools): 
+svd_pack: redsvd
+lambda_scale_fac: 0.75,1,1.1,
+forgive_unknown_args: 0
+max_run_fail: 3
+panther_poll_interval: 1
+parameter_covariance: 
+observation_covariance: 
+hotstart_resfile: 
+overdue_resched_fac: 1.15
+overdue_giveup_fac: 100
+overdue_giveup_minutes: 1e+30
+condor_submit_file: 
+tie_by_group: 0
+par_sigma_range: 4
+enforce_tied_bounds: 0
+debug_parse_only: 0
+check_tplins: 1
+fill_tpl_zeros: 0
+tpl_force_decimal: 0
+additional_ins_delimiters: 
+random_seed: 358183147
+num_tpl_ins_threads: 1
+save_binary: 0
+save_dense: 0
+ensemble_output_precision: 20
+panther_echo: 1
+panther_agent_restart_on_error: 0
+panther_agent_no_ping_timeout_secs: -1
+panther_debug_loop: 0
+debug_check_par_en_consistency: 0
+panther_agent_freeze_on_fail: 0
+panther_transfer_on_finish: 
+panther_transfer_on_fail: 
+panther_timeout_milliseconds: -999
+panther_echo_interval_milliseconds: 1000
+panther_persistent_workers: 1
+
+...pestpp-glm specific options:
+max_n_super: 1000000
+super_eigthresh: 1e-06
+n_iter_base: 1000000
+n_iter_super: 0
+super_relparmax: 0.1
+max_super_frz_iter: 20
+max_reg_iter: 20
+lambdas: 0.1,1,10,100,1000,
+iteration_summary: 1
+der_forgive: 1
+uncertainty: 1
+forecasts: 
+base_jacobian: 
+glm_num_reals: 0
+jac_scale: 1
+glm_normal_form: DIAG
+glm_debug_der_fail: 0
+glm_debug_lamb_fail: 0
+glm_debug_real_fail: 0
+glm_accept_mc_phi: 0
+glm_rebase_super: 0
+glm_iter_mc: 0
+glm_high_2nd_iter_phi: 0
+
+...pestpp-swp options:
+sweep_parameter_csv_file: 
+sweep_output_csv_file: sweep_out.csv
+sweep_chunk: 500
+sweep_forgive: 0
+sweep_base_run: 0
+sweep_include_regul_phi: 0
+
+...pestpp-opt options:
+opt_objective_function: 
+opt_coin_log: 1
+opt_skip_final: 0
+opt_std_weights: 0
+opt_stack_size: 0
+opt_par_stack: 
+opt_obs_stack: 
+opt_decision_variable_groups: 
+opt_external_variable_groups: 
+opt_constraint_groups: 
+opt_risk: 0.5
+opt_iter_derinc_fac: 1
+opt_direction: 1
+opt_iter_tol: 0.001
+opt_recalc_fosm_every: 1
+opt_chance_points: SINGLE
+opt_chance_schedule: 
+
+...pestpp-sqp options:
+sqp_dv_en: 
+sqp_obs_restart_en: 
+sqp_num_reals: -1
+sqp_update_hessian: 0
+sqp_scale_facs:
+  1e-05
+  0.0001
+  0.0005
+  0.001
+  0.0025
+  0.005
+  0.01
+  0.05
+  0.075
+  0.1
+  0.25
+  0.5
+  1
+  2
+  5
+  10
+
+...pestpp-mou options:
+mou_generator: PSO
+mou_population_size: 100
+mou_dv_population_file: 
+mou_obs_population_restart_file: 
+mou_objectives: 
+mou_max_archive_size: 500
+mou_risk_objective: 0
+mou_verbose_level: 1
+mou_env_selector: NSGA
+mou_mating_selector: TOURNAMENT
+mou_crossover_prob: 0.75
+mou_mutation_prob: -999
+mou_de_f: 0.8
+mou_save_population_every: -1
+mou_pso_omega: 0.7
+mou_pso_inertia (IINER, FINERT, INITER): 
+ 0.7  0.4  0 
+mou_pso_social_const: 
+ 2
+mou_pso_cognitive: 
+ 2
+mou_pso_alpha: 1
+mou_pso_rramp: -500
+mou_pso_rfit: 2
+mou_pso_vmax_factor: 0.8
+mou_pso_dv_bound_handling: CLAMP
+mou_ppd_beta: 0.5
+mou_fit_gamma: 0.25
+mou_fit_epsilon: 0.05
+mou_population_schedule: 
+mou_simplex_reflections:10
+mou_simplex_factors: 
+ 0.5
+ 0.6
+ 0.7
+ 0.8
+mou_simplex_mutation: 0
+mou_use_multigen:0
+mou_shuffle_fixed_pars: 0
+mou_debug_dv_handling: 0
+
+...shared pestpp-ies/pestpp-da options:
+(note: 'da' args override 'ies' args when using pestpp-da)
+ies_parameter_ensemble: 
+ies_observation_ensemble: 
+ies_weights_ensemble: 
+ies_restart_parameter_ensemble: 
+ies_restart_observation_ensemble: 
+ies_use_approximate_solution: 1
+ies_lambda_mults: 0.1,1,10,
+ies_initial_lambda: 0
+ies_use_approx: 1
+ies_subset_size: -10
+ies_reg_factor: 0
+ies_verbose_level: 1
+ies_use_prior_scaling: 0
+ies_num_reals: 50
+ies_bad_phi: 1.79769e+308
+ies_bad_phi_sigma: 1.79769e+308
+ies_include_base: 1
+ies_use_empirical_prior: 0
+ies_group_draws: 0
+ies_enforce_bounds: 1
+ies_localizer: 
+ies_accept_phi_fac: 1.05
+ies_lambda_inc_fac: 10
+ies_lambda_dec_fac: 0.75
+ies_save_lambda_ensembles: 0
+ies_subset_how: RANDOM
+ies_localize_how: PARAMETERS
+ies_num_threads: -1
+ies_debug_fail_subset: 0
+ies_debug_fail_remainder: 0
+ies_debug_bad_phi: 0
+ies_debug_upgrade_only: 0
+ies_debug_high_subset_phi: 0
+ies_debug_high_upgrade_phi: 0
+ies_csv_by_reals: 1
+ies_autoadaloc: 0
+ies_autoadaloc_sigma_dist: 1
+ies_enforce_chglim: 0
+ies_center_on: 
+ies_no_noise: 0
+ies_drop_conflicts: 0
+ies_save_rescov:0
+ies_pdc_sigma_distance: -1
+ies_use_mda: 0
+ies_mda_init_fac: 10
+ies_mda_dec_fac: 0.5
+ies_localization_type: LOCAL
+ies_upgrades_in_memory: 1
+ies_ordered_binary: 1
+ies_multimodal_alpha: 1
+ies_localizer_forgive_extra: 0
+ies_phi_factors_file: 
+ies_phi_factors_by_real: 0
+ies_n_iter_reinflate: 
+0,
+ies_reinflate_factor: 
+1,
+ies_updatebyreals: 0
+ies_autoadaloc_indicator_pars: 
+
+ies_run_realname: ies_reinflate_num_reals: 
+0,
+
+pestpp-sen options: 
+gsa_method: MORRIS
+gsa_morris_pooled_obs: 0
+gsa_morris_obs_sen: 1
+gsa_morris_p: 4
+gsa_morris_r: 4
+gsa_morris_delta: 0.6666
+gsa_sobol_samples: 4
+gsa_sobol_par_dist: norm
+
+pestpp-da options (those not shared with pestpp-ies):
+da_parameter_cycle_table: 
+da_observation_cycle_table: 
+da_hotstart_cycle: 0
+da_stop_cycle: 1000000000
+da_use_simulated_states: 1
+da_noptmax_schedule: 
+
+
+
+Model command line(s):- 
+    C:\Users\sebas\AppData\Local\Programs\Python\Python310\python.exe forward_run.py
+
+Model interface files:-
+    template files:
+      params.csv.tpl
+    model input files:
+      params.csv
+
+    instruction files:
+      sim_heads.ins
+    model output files:
+      sim_heads.dat
+
+
+Parameter group information
+NAME          INCREMENT TYPE     DERIVATIVE INCREMENT    INCREMENT LOWER BOUND  FORCE CENTRAL     INCREMENT MULTIPLIER
+pargp               RELATIVE                     0.01                        0         SWITCH                        2
+
+
+
+Parameter information
+NAME         TRANSFORMATION        CHANGE LIMIT  INITIAL VALUE    LOWER BOUND    UPPER BOUND        GROUP          SCALE         OFFSET  DERIVATIVE COMMAND
+mfgw_rest    log                     FACTOR              1       0.166667        1.66667        pargp              1              0                   1
+mfgw_upland  log                     FACTOR              1       0.166667        1.66667        pargp              1              0                   1
+mk_rest_l1   log                     FACTOR              1       0.111111        2.22222        pargp              1              0                   1
+mk_rest_l2   log                     FACTOR              1       0.111111        2.22222        pargp              1              0                   1
+mk_ring_l1   log                     FACTOR              1       0.111111        2.22222        pargp              1              0                   1
+mk_ring_l2   log                     FACTOR              1       0.111111        1.11111        pargp              1              0                   1
+mr_rest      log                     FACTOR              1            0.2              2        pargp              1              0                   1
+mr_upland    log                     FACTOR              1            0.2              2        pargp              1              0                   1
+
+
+
+Observation information
+NAME                                VALUE                GROUP              WEIGHT
+asm_01                               1.39                 head                 0.2
+asm_02                               0.98                 head                 0.2
+asm_03                               1.01                 head                 0.2
+asm_04                               0.75                 head                 0.2
+asm_05                               0.53                 head                 0.2
+asm_06                               0.48                 head                 0.2
+asm_07                               0.47                 head                 0.2
+asm_08                               0.36                 head            0.533333
+asm_09                               0.31                 head                 0.2
+asm_10                                0.2                 head                 0.2
+asm_11                               0.28                 head                 0.2
+asm_12                               0.21                 head                 0.2
+asm_13                               0.61                 head                 0.2
+asm_14                               0.64                 head                 0.2
+asm_15                               0.68                 head                 0.2
+asm_16                               0.75                 head                 0.2
+asm_17                               0.33                 head                 0.2
+asm_18                               0.39                 head                 0.2
+asm_19                              0.345                 head            0.533333
+asm_20                               0.62                 head                 0.2
+asm_22                               1.68                 head                 0.2
+asm_23                               2.02                 head                 0.2
+asm_24                               1.87                 head                 0.2
+asm_25                               2.46                 head                 0.2
+asm_27                              2.525                 head            0.533333
+asm_28                               1.69                 head                 0.2
+asm_30                               2.33                 head            0.533333
+asm_32                               2.36                 head                 0.2
+asm_33                               2.28                 head                 0.2
+asm_34                               2.07                 head                 0.2
+asm_35                               2.04                 head                 0.2
+asm_36                               2.02                 head            0.466667
+asm_37                               2.01                 head            0.466667
+asm_40                               1.22                 head                 0.2
+asm_41                               1.28                 head                 0.2
+asm_42                               0.44                 head                 0.2
+asm_43                               0.27                 head                 0.2
+asm_44                               1.63                 head                 0.2
+asm_45                                1.7                 head                 0.2
+asm_46                               1.92                 head                 0.2
+aso_1                              -0.575                 head            0.533333
+aso_10                               2.09                 head            0.733333
+aso_12                               2.29                 head            0.533333
+aso_13                                2.1                 head            0.666667
+aso_14                               1.79                 head            0.733333
+aso_15                               1.58                 head                 0.6
+aso_16                               1.45                 head                 0.6
+aso_17                              1.655                 head                 0.8
+aso_18                                1.9                 head            0.666667
+aso_19                               2.16                 head                 0.6
+aso_2                                0.53                 head            0.733333
+aso_21                               1.93                 head            0.733333
+aso_22                              0.015                 head            0.533333
+aso_23                               0.91                 head            0.666667
+aso_3                               -0.86                 head            0.733333
+aso_37                             -0.185                 head                 0.4
+aso_38                                0.3                 head            0.533333
+aso_39                              -0.13                 head                 0.4
+aso_4                                1.23                 head            0.733333
+aso_5                               1.615                 head            0.666667
+aso_6                                0.83                 head            0.733333
+aso_7                                0.32                 head            0.733333
+aso_8                                0.82                 head            0.466667
+aso_9                                1.26                 head            0.666667
+b1_baca                              0.38                 head            0.666667
+b2_motul                             0.59                 head            0.733333
+b3_sacapuc                              0                 head                 0.6
+b4_timul                             0.01                 head                 0.6
+conagua                              1.78                 head            0.866667
+cu01                                 1.19                 head            0.333333
+cu02                                 1.04                 head            0.333333
+cu03                                  1.1                 head            0.333333
+cu04                                 1.05                 head            0.333333
+cu05                                 1.08                 head            0.333333
+cu06                                 0.98                 head            0.333333
+cu07                                 1.12                 head            0.333333
+cu08                                 1.04                 head            0.333333
+cu09                                 1.07                 head            0.333333
+cu10                                 1.03                 head            0.333333
+cu11                                  0.9                 head            0.333333
+cu12                                 0.87                 head            0.333333
+cu13                                 1.11                 head            0.333333
+cu14                                 0.91                 head            0.333333
+cu15                                 0.52                 head            0.333333
+cu16                                 0.45                 head            0.333333
+cu17                                 0.33                 head            0.333333
+cu18                                 0.69                 head            0.333333
+cu19                                 0.62                 head            0.333333
+cu20                                 0.21                 head            0.333333
+mi1_siglo_xx1                        1.56                 head                 0.8
+mi2_tho_o                            1.18                 head                 0.8
+mi3_hacienda_x_luch                  0.74                 head            0.733333
+mp1_fiuady                          0.595                 head            0.933333
+mp2_komchen                          0.59                 head                   1
+mp3_predeco                          0.12                 head            0.933333
+mp4_contenedores                    0.055                 head            0.933333
+observatorio                        1.325                 head            0.933333
+p1_celest_n                          0.53                 head                   1
+p2_chunchucmil                       0.62                 head            0.933333
+p3_amaris_ii                         1.02                 head            0.533333
+p4_nohuayun                         0.595                 head                 0.8
+p5_sisal                             0.38                 head            0.866667
+p6_tamchen                           1.95                 head            0.866667
+rm01_deportivo_sur                  1.645                 head            0.666667
+rm02_obervatorio                      1.4                 head            0.733333
+rm03_acuaparque                       1.7                 head            0.666667
+rm04_bomberos                        1.35                 head            0.666667
+rm05_portes_gil                     1.295                 head            0.533333
+rm06_chalmuch                       1.145                 head            0.533333
+rm07_anicabil                        1.43                 head                 0.6
+rm08_chenku                         1.275                 head            0.666667
+rm09_tecnologico                      1.1                 head                 0.6
+rm11ucu                              1.12                 head                 0.6
+rm12cheuman                          1.33                 head            0.733333
+rm13tixcuytun                        1.42                 head                 0.6
+rm14megalita                         1.32                 head            0.666667
+rm15sierra_papacal                  0.675                 head            0.666667
+rm18_sac_nicte                       0.95                 head                 0.6
+rm_10_sagarpa                       1.055                 head            0.533333
+rm_16_rancho                        0.455                 head                 0.4
+rm_17_dzidzilche                     0.56                 head            0.733333
+rm_19_crio                            0.6                 head            0.666667
+rm_20_baag                          0.295                 head            0.666667
+w_1a_plantel_sn_juan                 0.25                 head            0.866667
+w_1b_san_eduardo                    0.515                 head            0.933333
+w_1c_quinta_rosario                  0.74                 head            0.933333
+w_2a_dzilam_bravo                    0.27                 head                   1
+w_2b_dzilam_glez                     0.99                 head                   1
+w_2c_san_gregorio                   1.645                 head            0.933333
+w_3a_san_felipe                       1.4                 head            0.933333
+w_3b_santa_pilar                    2.055                 head            0.933333
+w_3c_san_isidro                      2.28                 head            0.933333
+w_4a_la_curva                        1.82                 head            0.933333
+w_4b_moctezuma                       3.98                 head                   1
+w_4c_vista_hermosa                   5.25                 head            0.866667
+
+
+
+Prior information
+
+   no prior information provided
+
+
+
+PEST SVD Information
+    maxsing = 10000000
+    eigthresh = 1e-06
+
+
+
+
+
+...loading prior parameter covariance matrix
+
+   -----    Starting pestpp-glm Iterations    ----    
+
+
+OPTIMISATION ITERATION NUMBER: 1
+
+  Iteration type: base parameter solution
+  SVD Package: RedSVD
+  Model calls so far : 0
+
+
+
+  Starting phi for this iteration                     Total : 64.1183
+
+
+  Contribution to phi from observation group         "head" : 64.1183
+  Number of terms in the jacobian equal to zero: 360 / 1080 (33%)
+
+   ...calculating lambda upgrade vector: 0.1
+  computing upgrade vector (lambda = 0.1)  1 / 5             
+   ...calculating scaled lambda vector-scale factor: 0.1, 0.75
+   ...calculating scaled lambda vector-scale factor: 0.1, 1.1
+   ...calculating lambda upgrade vector: 1
+  computing upgrade vector (lambda = 1)  2 / 5             
+   ...calculating scaled lambda vector-scale factor: 1, 0.75
+   ...calculating scaled lambda vector-scale factor: 1, 1.1
+   ...calculating lambda upgrade vector: 10
+  computing upgrade vector (lambda = 10)  3 / 5             
+   ...calculating scaled lambda vector-scale factor: 10, 0.75
+   ...calculating scaled lambda vector-scale factor: 10, 1.1
+   ...calculating lambda upgrade vector: 100
+  computing upgrade vector (lambda = 100)  4 / 5             
+   ...calculating scaled lambda vector-scale factor: 100, 0.75
+   ...calculating scaled lambda vector-scale factor: 100, 1.1
+   ...calculating lambda upgrade vector: 1000
+  computing upgrade vector (lambda = 1000)  5 / 5             
+   ...calculating scaled lambda vector-scale factor: 1000, 0.75
+   ...calculating scaled lambda vector-scale factor: 1000, 1.1
+starting FOSM uncertainty analyses for iteration 0
+
+
+posterior parameter covariance matrix written to file 'model.1.post.cov'
+
+current parameter uncertainty summary: 
+
+ name                         prior_mean         prior_stdev   prior_lower_bound   prior_upper_bound           post_mean          post_stdev    post_lower_bound    post_upper_bound
+mfgw_rest                               0                0.25                -0.5                 0.5                   0            0.249992           -0.499985            0.499985
+mfgw_upland                             0                0.25                -0.5                 0.5                   0                0.25                -0.5                 0.5
+mk_rest_l1                              0            0.325257           -0.650515            0.650515                   0            0.325231           -0.650463            0.650463
+mk_rest_l2                              0            0.325257           -0.650515            0.650515                   0            0.232201           -0.464401            0.464401
+mk_ring_l1                              0            0.325257           -0.650515            0.650515                   0            0.325257           -0.650513            0.650513
+mk_ring_l2                              0                0.25                -0.5                 0.5                   0                0.25                -0.5                 0.5
+mr_rest                                 0                0.25                -0.5                 0.5                   0            0.172347           -0.344695            0.344695
+mr_upland                               0                0.25                -0.5                 0.5                   0            0.249996           -0.499992            0.499992
+the above parameter uncertainty summary was written to file 'model.0.par.usum.csv'
+
+  Summary of GLM lambda upgrade runs:
+    Lambda =     0.10; Type:       normal; length = 2.13e+00;  phi =     64.63 (100.79% of starting phi)
+    Lambda =     0.10; Type:  scale(0.75); length = 1.63e+00;  phi =     64.71 (100.93% of starting phi)
+    Lambda =     0.10; Type:  scale(1.10); length = 2.17e+00;  phi =     64.63 (100.80% of starting phi)
+    Lambda =     1.00; Type:       normal; length = 1.60e+00;  phi =     64.49 (100.58% of starting phi)
+    Lambda =     1.00; Type:  scale(0.75); length = 1.08e+00;  phi =     64.56 (100.68% of starting phi)
+    Lambda =     1.00; Type:  scale(1.10); length = 1.60e+00;  phi =     64.49 (100.58% of starting phi)
+    Lambda =    10.00; Type:       normal; length = 2.19e-01;  phi =     62.98 (98.23% of starting phi)
+    Lambda =    10.00; Type:  scale(0.75); length = 1.60e-01;  phi =     63.08 (98.39% of starting phi)
+    Lambda =    10.00; Type:  scale(1.10); length = 2.43e-01;  phi =     62.97 (98.20% of starting phi)
+    Lambda =   100.00; Type:       normal; length = 7.58e-02;  phi =      63.1 (98.42% of starting phi)
+    Lambda =   100.00; Type:  scale(0.75); length = 5.67e-02;  phi =     63.21 (98.59% of starting phi)
+    Lambda =   100.00; Type:  scale(1.10); length = 8.34e-02;  phi =     63.08 (98.39% of starting phi)
+    Lambda =  1000.00; Type:       normal; length = 3.66e-02;  phi =     63.42 (98.91% of starting phi)
+    Lambda =  1000.00; Type:  scale(0.75); length = 2.75e-02;  phi =     63.55 (99.12% of starting phi)
+    Lambda =  1000.00; Type:  scale(1.10); length = 4.03e-02;  phi =     63.37 (98.83% of starting phi)
+Checking to see if best lambda is at the edge
+
+  Model calls in iteration 1: 24
+  Total model calls at end of iteration 1: 24
+
+
+  Final phi for this iteration                     Total : 62.9669
+
+
+  Contribution to phi from observation group         "head" : 62.9669
+    Iteration 1 Parameter Upgrades (Control File Parameters) 
+name                      current value     previous value      factor change    relative change
+MFGW_REST                       0.981913                   1             1.01842           0.0180871
+MFGW_UPLAND                            1                   1                   1                   0
+MK_REST_L1                      0.982676                   1             1.01763           0.0173244
+MK_REST_L2                       1.23654                   1             1.23654           -0.236539
+MK_RING_L1                      0.993062                   1             1.00699          0.00693797
+MK_RING_L2                             1                   1                   1                   0
+MR_REST                          1.04832                   1             1.04832          -0.0483168
+MR_UPLAND                       0.986386                   1              1.0138           0.0136137
+       Maximum changes in "Control File" parameters:
+         Maximum relative change = -0.236539   [mk_rest_l2]
+         Maximum factor change = 1.23654   [mk_rest_l2]
+
+    Iteration 1 Parameter Upgrades (Transformed Numeric Parameters) 
+name                      current value     previous value      factor change    relative change
+MFGW_REST                    -0.00792702                   0                 N/A                 N/A
+MFGW_UPLAND                            0                   0                 N/A                 N/A
+MK_REST_L1                   -0.00758984                   0                 N/A                 N/A
+MK_REST_L2                     0.0922077                   0                 N/A                 N/A
+MK_RING_L1                   -0.00302362                   0                 N/A                 N/A
+MK_RING_L2                             0                   0                 N/A                 N/A
+MR_REST                        0.0204925                   0                 N/A                 N/A
+MR_UPLAND                    -0.00595298                   0                 N/A                 N/A
+       Maximum changes in "Transformed Numeric" parameters:
+         Maximum relative change = 0   [n/a]
+         Maximum factor change = 0   [n/a]
+
+
+OPTIMISATION ITERATION NUMBER: 2
+
+  Iteration type: base parameter solution
+  SVD Package: RedSVD
+  Model calls so far : 24
+
+
+
+  Starting phi for this iteration                     Total : 62.9669
+
+
+  Contribution to phi from observation group         "head" : 62.9669
+  Number of terms in the jacobian equal to zero: 360 / 1080 (33%)
+
+   ...calculating lambda upgrade vector: 0.1
+  computing upgrade vector (lambda = 0.1)  1 / 5             
+   ...calculating scaled lambda vector-scale factor: 0.1, 0.75
+   ...calculating scaled lambda vector-scale factor: 0.1, 1.1
+   ...calculating lambda upgrade vector: 1
+  computing upgrade vector (lambda = 1)  2 / 5             
+   ...calculating scaled lambda vector-scale factor: 1, 0.75
+   ...calculating scaled lambda vector-scale factor: 1, 1.1
+   ...calculating lambda upgrade vector: 10
+  computing upgrade vector (lambda = 10)  3 / 5             
+   ...calculating scaled lambda vector-scale factor: 10, 0.75
+   ...calculating scaled lambda vector-scale factor: 10, 1.1
+   ...calculating lambda upgrade vector: 100
+  computing upgrade vector (lambda = 100)  4 / 5             
+   ...calculating scaled lambda vector-scale factor: 100, 0.75
+   ...calculating scaled lambda vector-scale factor: 100, 1.1
+   ...calculating lambda upgrade vector: 1000
+  computing upgrade vector (lambda = 1000)  5 / 5             
+   ...calculating scaled lambda vector-scale factor: 1000, 0.75
+   ...calculating scaled lambda vector-scale factor: 1000, 1.1
+starting FOSM uncertainty analyses for iteration 1
+
+
+posterior parameter covariance matrix written to file 'model.2.post.cov'
+
+current parameter uncertainty summary: 
+
+ name                         prior_mean         prior_stdev   prior_lower_bound   prior_upper_bound           post_mean          post_stdev    post_lower_bound    post_upper_bound
+mfgw_rest                               0                0.25                -0.5                 0.5         -0.00792702            0.249996            -0.50792            0.492066
+mfgw_upland                             0                0.25                -0.5                 0.5                   0                0.25                -0.5                 0.5
+mk_rest_l1                              0            0.325257           -0.650515            0.650515         -0.00758984            0.325239           -0.658067            0.642888
+mk_rest_l2                              0            0.325257           -0.650515            0.650515           0.0922077            0.233663           -0.375118            0.559533
+mk_ring_l1                              0            0.325257           -0.650515            0.650515         -0.00302362            0.325238           -0.653501            0.647453
+mk_ring_l2                              0                0.25                -0.5                 0.5                   0                0.25                -0.5                 0.5
+mr_rest                                 0                0.25                -0.5                 0.5           0.0204925            0.174274           -0.328056            0.369041
+mr_upland                               0                0.25                -0.5                 0.5         -0.00595298            0.249998           -0.505948            0.494042
+the above parameter uncertainty summary was written to file 'model.1.par.usum.csv'
+
+  Summary of GLM lambda upgrade runs:
+    Lambda =     0.10; Type:       normal; length = 2.12e+00;  phi =     64.63 (102.64% of starting phi)
+    Lambda =     0.10; Type:  scale(0.75); length = 1.73e+00;  phi =     63.91 (101.50% of starting phi)
+    Lambda =     0.10; Type:  scale(1.10); length = 2.14e+00;  phi =     64.63 (102.65% of starting phi)
+    Lambda =     1.00; Type:       normal; length = 1.32e+00;  phi =     62.98 (100.02% of starting phi)
+    Lambda =     1.00; Type:  scale(0.75); length = 9.31e-01;  phi =     62.93 (99.93% of starting phi)
+    Lambda =     1.00; Type:  scale(1.10); length = 1.40e+00;  phi =     63.75 (101.24% of starting phi)
+    Lambda =    10.00; Type:       normal; length = 1.45e-01;  phi =      62.9 (99.90% of starting phi)
+    Lambda =    10.00; Type:  scale(0.75); length = 1.08e-01;  phi =     62.92 (99.92% of starting phi)
+    Lambda =    10.00; Type:  scale(1.10); length = 1.61e-01;  phi =      62.9 (99.89% of starting phi)
+    Lambda =   100.00; Type:       normal; length = 1.43e-02;  phi =     62.96 (99.99% of starting phi)
+    Lambda =   100.00; Type:  scale(0.75); length = 1.07e-02;  phi =     62.96 (99.99% of starting phi)
+    Lambda =   100.00; Type:  scale(1.10); length = 1.58e-02;  phi =     62.96 (99.99% of starting phi)
+    Lambda =  1000.00; Type:       normal; length = 1.92e-03;  phi =     62.97 (100.00% of starting phi)
+    Lambda =  1000.00; Type:  scale(0.75); length = 1.44e-03;  phi =     62.97 (100.00% of starting phi)
+    Lambda =  1000.00; Type:  scale(1.10); length = 2.11e-03;  phi =     62.97 (100.00% of starting phi)
+Checking to see if best lambda is at the edge
+
+      Switching to central derivatives:
+
+  Model calls in iteration 2: 23
+  Total model calls at end of iteration 2: 47
+
+
+  Final phi for this iteration                     Total : 62.8984
+
+
+  Contribution to phi from observation group         "head" : 62.8984
+    Iteration 2 Parameter Upgrades (Control File Parameters) 
+name                      current value     previous value      factor change    relative change
+MFGW_REST                       0.967289            0.981913             1.01512           0.0148937
+MFGW_UPLAND                            1                   1                   1                   0
+MK_REST_L1                      0.941281            0.982676             1.04398           0.0421241
+MK_REST_L2                        1.3625             1.23654             1.10186           -0.101865
+MK_RING_L1                      0.969672            0.993062             1.02412           0.0235538
+MK_RING_L2                             1                   1                   1                   0
+MR_REST                          1.13249             1.04832             1.08029          -0.0802927
+MR_UPLAND                       0.967522            0.986386              1.0195           0.0191242
+       Maximum changes in "Control File" parameters:
+         Maximum relative change = -0.101865   [mk_rest_l2]
+         Maximum factor change = 1.10186   [mk_rest_l2]
+
+    Iteration 2 Parameter Upgrades (Transformed Numeric Parameters) 
+name                      current value     previous value      factor change    relative change
+MFGW_REST                     -0.0144439         -0.00792702             1.82211           -0.822115
+MFGW_UPLAND                            0                   0                 N/A                 N/A
+MK_REST_L1                    -0.0262806         -0.00758984              3.4626             -2.4626
+MK_REST_L2                      0.134336           0.0922077             1.45688           -0.456885
+MK_RING_L1                    -0.0133753         -0.00302362              4.4236             -3.4236
+MK_RING_L2                             0                   0                 N/A                 N/A
+MR_REST                         0.054034           0.0204925             2.63676            -1.63676
+MR_UPLAND                      -0.014339         -0.00595298              2.4087             -1.4087
+       Maximum changes in "Transformed Numeric" parameters:
+         Maximum relative change = -3.4236   [mk_ring_l1]
+         Maximum factor change = 4.4236   [mk_ring_l1]
+
+
+OPTIMISATION ITERATION NUMBER: 3
+
+  Iteration type: base parameter solution
+  SVD Package: RedSVD
+  Model calls so far : 47
+
+
+
+  Starting phi for this iteration                     Total : 62.8984
+
+
+  Contribution to phi from observation group         "head" : 62.8984
+  Number of terms in the jacobian equal to zero: 290 / 1080 (27%)
+
+   ...calculating lambda upgrade vector: 0.1
+  computing upgrade vector (lambda = 0.1)  1 / 5             
+   ...calculating scaled lambda vector-scale factor: 0.1, 0.75
+   ...calculating scaled lambda vector-scale factor: 0.1, 1.1
+   ...calculating lambda upgrade vector: 1
+  computing upgrade vector (lambda = 1)  2 / 5             
+   ...calculating scaled lambda vector-scale factor: 1, 0.75
+   ...calculating scaled lambda vector-scale factor: 1, 1.1
+   ...calculating lambda upgrade vector: 10
+  computing upgrade vector (lambda = 10)  3 / 5             
+   ...calculating scaled lambda vector-scale factor: 10, 0.75
+   ...calculating scaled lambda vector-scale factor: 10, 1.1
+   ...calculating lambda upgrade vector: 100
+  computing upgrade vector (lambda = 100)  4 / 5             
+   ...calculating scaled lambda vector-scale factor: 100, 0.75
+   ...calculating scaled lambda vector-scale factor: 100, 1.1
+   ...calculating lambda upgrade vector: 1000
+  computing upgrade vector (lambda = 1000)  5 / 5             
+   ...calculating scaled lambda vector-scale factor: 1000, 0.75
+   ...calculating scaled lambda vector-scale factor: 1000, 1.1
+starting FOSM uncertainty analyses for iteration 2
+
+
+posterior parameter covariance matrix written to file 'model.3.post.cov'
+
+current parameter uncertainty summary: 
+
+ name                         prior_mean         prior_stdev   prior_lower_bound   prior_upper_bound           post_mean          post_stdev    post_lower_bound    post_upper_bound
+mfgw_rest                               0                0.25                -0.5                 0.5          -0.0144439            0.249987           -0.514418             0.48553
+mfgw_upland                             0                0.25                -0.5                 0.5                   0                0.25                -0.5                 0.5
+mk_rest_l1                              0            0.325257           -0.650515            0.650515          -0.0262806            0.325234           -0.676749            0.624188
+mk_rest_l2                              0            0.325257           -0.650515            0.650515            0.134336            0.225496           -0.316656            0.585328
+mk_ring_l1                              0            0.325257           -0.650515            0.650515          -0.0133753            0.325257            -0.66389            0.637139
+mk_ring_l2                              0                0.25                -0.5                 0.5                   0                0.25                -0.5                 0.5
+mr_rest                                 0                0.25                -0.5                 0.5            0.054034             0.18109           -0.308146            0.416214
+mr_upland                               0                0.25                -0.5                 0.5           -0.014339            0.249999           -0.514338             0.48566
+the above parameter uncertainty summary was written to file 'model.2.par.usum.csv'
+
+  Summary of GLM lambda upgrade runs:
+    Lambda =     0.10; Type:       normal; length = 1.62e+00;  phi =     64.47 (102.51% of starting phi)
+    Lambda =     0.10; Type:  scale(0.75); length = 1.20e+00;  phi =     63.76 (101.36% of starting phi)
+    Lambda =     0.10; Type:  scale(1.10); length = 1.64e+00;  phi =     64.48 (102.51% of starting phi)
+    Lambda =     1.00; Type:       normal; length = 1.25e+00;  phi =     64.46 (102.48% of starting phi)
+    Lambda =     1.00; Type:  scale(0.75); length = 8.76e-01;  phi =     63.75 (101.35% of starting phi)
+    Lambda =     1.00; Type:  scale(1.10); length = 1.26e+00;  phi =     64.46 (102.48% of starting phi)
+    Lambda =    10.00; Type:       normal; length = 1.82e-01;  phi =     62.83 (99.90% of starting phi)
+    Lambda =    10.00; Type:  scale(0.75); length = 1.35e-01;  phi =     62.85 (99.92% of starting phi)
+    Lambda =    10.00; Type:  scale(1.10); length = 2.01e-01;  phi =     62.83 (99.89% of starting phi)
+    Lambda =   100.00; Type:       normal; length = 1.76e-02;  phi =     62.89 (99.99% of starting phi)
+    Lambda =   100.00; Type:  scale(0.75); length = 1.31e-02;  phi =     62.89 (99.99% of starting phi)
+    Lambda =   100.00; Type:  scale(1.10); length = 1.93e-02;  phi =     62.89 (99.99% of starting phi)
+    Lambda =  1000.00; Type:       normal; length = 1.77e-03;  phi =      62.9 (100.00% of starting phi)
+    Lambda =  1000.00; Type:  scale(0.75); length = 1.33e-03;  phi =      62.9 (100.00% of starting phi)
+    Lambda =  1000.00; Type:  scale(1.10); length = 1.95e-03;  phi =      62.9 (100.00% of starting phi)
+Checking to see if best lambda is at the edge
+
+  Model calls in iteration 3: 31
+  Total model calls at end of iteration 3: 78
+
+
+  Final phi for this iteration                     Total : 62.8274
+
+
+  Contribution to phi from observation group         "head" : 62.8274
+    Iteration 3 Parameter Upgrades (Control File Parameters) 
+name                      current value     previous value      factor change    relative change
+MFGW_REST                        0.98943            0.967289             1.02289          -0.0228905
+MFGW_UPLAND                            1                   1                   1                   0
+MK_REST_L1                      0.923611            0.941281             1.01913           0.0187722
+MK_REST_L2                       1.52717              1.3625             1.12086           -0.120861
+MK_RING_L1                      0.969672            0.969672                   1         4.53762e-09
+MK_RING_L2                             1                   1                   1                   0
+MR_REST                          1.24395             1.13249             1.09842          -0.0984223
+MR_UPLAND                       0.961479            0.967522             1.00629          0.00624655
+       Maximum changes in "Control File" parameters:
+         Maximum relative change = -0.120861   [mk_rest_l2]
+         Maximum factor change = 1.12086   [mk_rest_l2]
+
+    Iteration 3 Parameter Upgrades (Transformed Numeric Parameters) 
+name                      current value     previous value      factor change    relative change
+MFGW_REST                    -0.00461479          -0.0144439             3.12993            0.680504
+MFGW_UPLAND                            0                   0                 N/A                 N/A
+MK_REST_L1                    -0.0345108          -0.0262806             1.31317           -0.313165
+MK_REST_L2                      0.183888            0.134336             1.36886           -0.368864
+MK_RING_L1                    -0.0133753          -0.0133753                   1        -1.47336e-07
+MK_RING_L2                             0                   0                 N/A                 N/A
+MR_REST                        0.0948033            0.054034             1.75451           -0.754513
+MR_UPLAND                     -0.0170603           -0.014339             1.18979           -0.189787
+       Maximum changes in "Transformed Numeric" parameters:
+         Maximum relative change = -0.754513   [mr_rest]
+         Maximum factor change = 3.12993   [mfgw_rest]
+
+-----------------------------------------
+     ---   OPTIMIZATION COMPLETE   ---   
+  Reason for terminating PEST++ simulation: PHIREDSTP / NPHISTP criterion met
+  Summary of termination criteria:
+  NOPTMAX = 10 ;  NOPT at termination = 3
+  NPHINORED = 3 ;  NPHINORED at termination = 0
+  NRELPAR = 3; RELPARSTP = 0.01 ;  NRELPAR at termination = 0
+  PHIREDSTP = 0.01; NPHISTP = 3
+  NPHISTP lowest PHI's:
+        62.8274
+        62.8984
+        62.9669
+
+FINAL OPTIMISATION RESULTS
+
+  Optimal parameter values  
+
+     Parameter            
+        Name         Value
+    ------------  ------------
+    mfgw_rest          0.98943
+    mfgw_upland              1
+    mk_rest_l1        0.923611
+    mk_rest_l2         1.52717
+    mk_ring_l1        0.969672
+    mk_ring_l2               1
+    mr_rest            1.24395
+    mr_upland         0.961479
+
+
+  Observations with optimal model-simulated equivalents and residuals
+                 Name        Group             Measured             Modelled             Residual               Weight
+               asm_01         head              1.39000             0.801668             0.588332             0.200000
+               asm_02         head             0.980000             0.571162             0.408838             0.200000
+               asm_03         head              1.01000             0.492053             0.517947             0.200000
+               asm_04         head             0.750000             0.470088             0.279912             0.200000
+               asm_05         head             0.530000             0.353267             0.176733             0.200000
+               asm_06         head             0.480000             0.351212             0.128788             0.200000
+               asm_07         head             0.470000             0.224134             0.245866             0.200000
+               asm_08         head             0.360000              0.00000             0.360000             0.533333
+               asm_09         head             0.310000              0.00000             0.310000             0.200000
+               asm_10         head             0.200000              0.00000             0.200000             0.200000
+               asm_11         head             0.280000              0.00000             0.280000             0.200000
+               asm_12         head             0.210000              0.00000             0.210000             0.200000
+               asm_13         head             0.610000             0.270817             0.339183             0.200000
+               asm_14         head             0.640000             0.330148             0.309852             0.200000
+               asm_15         head             0.680000             0.456697             0.223303             0.200000
+               asm_16         head             0.750000             0.578046             0.171954             0.200000
+               asm_17         head             0.330000             0.359066           -0.0290665             0.200000
+               asm_18         head             0.390000              0.00000             0.390000             0.200000
+               asm_19         head             0.345000              0.00000             0.345000             0.533333
+               asm_20         head             0.620000              0.00000             0.620000             0.200000
+               asm_22         head              1.68000             0.777258             0.902742             0.200000
+               asm_23         head              2.02000             0.898528              1.12147             0.200000
+               asm_24         head              1.87000             0.983533             0.886467             0.200000
+               asm_25         head              2.46000              1.26717              1.19283             0.200000
+               asm_27         head              2.52500              1.50998              1.01502             0.533333
+               asm_28         head              1.69000              1.45398             0.236018             0.200000
+               asm_30         head              2.33000              1.20482              1.12518             0.533333
+               asm_32         head              2.36000              1.26275              1.09725             0.200000
+               asm_33         head              2.28000              1.12453              1.15547             0.200000
+               asm_34         head              2.07000              1.08845             0.981554             0.200000
+               asm_35         head              2.04000              1.02250              1.01750             0.200000
+               asm_36         head              2.02000             0.974488              1.04551             0.466667
+               asm_37         head              2.01000             0.863753              1.14625             0.466667
+               asm_40         head              1.22000             0.525500             0.694500             0.200000
+               asm_41         head              1.28000             0.576770             0.703230             0.200000
+               asm_42         head             0.440000             0.439432          0.000568099             0.200000
+               asm_43         head             0.270000             0.373268            -0.103268             0.200000
+               asm_44         head              1.63000             0.724416             0.905584             0.200000
+               asm_45         head              1.70000             0.858512             0.841488             0.200000
+               asm_46         head              1.92000             0.939250             0.980750             0.200000
+                aso_1         head            -0.575000              1.34405             -1.91905             0.533333
+               aso_10         head              2.09000              1.79497             0.295027             0.733333
+               aso_12         head              2.29000              1.78462             0.505381             0.533333
+               aso_13         head              2.10000              1.80722             0.292779             0.666667
+               aso_14         head              1.79000              2.08069            -0.290690             0.733333
+               aso_15         head              1.58000              2.17505            -0.595052             0.600000
+               aso_16         head              1.45000              2.19628            -0.746282             0.600000
+               aso_17         head              1.65500              2.11335            -0.458347             0.800000
+               aso_18         head              1.90000              1.86903            0.0309690             0.666667
+               aso_19         head              2.16000              2.18081           -0.0208071             0.600000
+                aso_2         head             0.530000              1.41903            -0.889028             0.733333
+               aso_21         head              1.93000              2.36759            -0.437594             0.733333
+               aso_22         head            0.0150000              1.84840             -1.83340             0.533333
+               aso_23         head             0.910000              1.97126             -1.06126             0.666667
+                aso_3         head            -0.860000              1.42564             -2.28564             0.733333
+               aso_37         head            -0.185000              1.76882             -1.95382             0.400000
+               aso_38         head             0.300000              1.85115             -1.55115             0.533333
+               aso_39         head            -0.130000              1.63285             -1.76285             0.400000
+                aso_4         head              1.23000              1.57885            -0.348847             0.733333
+                aso_5         head              1.61500              1.82479            -0.209787             0.666667
+                aso_6         head             0.830000              1.55687            -0.726869             0.733333
+                aso_7         head             0.320000              1.61765             -1.29765             0.733333
+                aso_8         head             0.820000              1.50788            -0.687882             0.466667
+                aso_9         head              1.26000              1.68271            -0.422710             0.666667
+              b1_baca         head             0.380000             0.604691            -0.224691             0.666667
+             b2_motul         head             0.590000             0.648936           -0.0589356             0.733333
+           b3_sacapuc         head              0.00000             0.397280            -0.397280             0.600000
+             b4_timul         head            0.0100000             0.252531            -0.242531             0.600000
+              conagua         head              1.78000             0.689978              1.09002             0.866667
+                 cu01         head              1.19000              1.00478             0.185224             0.333333
+                 cu02         head              1.04000             0.843962             0.196038             0.333333
+                 cu03         head              1.10000             0.912083             0.187917             0.333333
+                 cu04         head              1.05000             0.823642             0.226358             0.333333
+                 cu05         head              1.08000             0.848083             0.231917             0.333333
+                 cu06         head             0.980000             0.717102             0.262898             0.333333
+                 cu07         head              1.12000             0.663023             0.456977             0.333333
+                 cu08         head              1.04000             0.648316             0.391684             0.333333
+                 cu09         head              1.07000             0.676431             0.393569             0.333333
+                 cu10         head              1.03000             0.738500             0.291500             0.333333
+                 cu11         head             0.900000             0.525500             0.374500             0.333333
+                 cu12         head             0.870000             0.450648             0.419352             0.333333
+                 cu13         head              1.11000             0.560554             0.549446             0.333333
+                 cu14         head             0.910000             0.482263             0.427737             0.333333
+                 cu15         head             0.520000             0.235908             0.284092             0.333333
+                 cu16         head             0.450000             0.164906             0.285094             0.333333
+                 cu17         head             0.330000             0.187740             0.142260             0.333333
+                 cu18         head             0.690000             0.863753            -0.173753             0.333333
+                 cu19         head             0.620000             0.863753            -0.243753             0.333333
+                 cu20         head             0.210000             0.863753            -0.653753             0.333333
+        mi1_siglo_xx1         head              1.56000             0.558802              1.00120             0.800000
+            mi2_tho_o         head              1.18000             0.416745             0.763255             0.800000
+  mi3_hacienda_x_luch         head             0.740000             0.256340             0.483660             0.733333
+           mp1_fiuady         head             0.595000             0.527434            0.0675656             0.933333
+          mp2_komchen         head             0.590000             0.379223             0.210777              1.00000
+          mp3_predeco         head             0.120000             0.111441           0.00855936             0.933333
+     mp4_contenedores         head            0.0550000              0.00000            0.0550000             0.933333
+         observatorio         head              1.32500             0.843962             0.481038             0.933333
+          p1_celest_n         head             0.530000             0.132916             0.397084              1.00000
+       p2_chunchucmil         head             0.620000             0.820332            -0.200332             0.933333
+         p3_amaris_ii         head              1.02000             0.514469             0.505531             0.533333
+          p4_nohuayun         head             0.595000             0.464388             0.130612             0.800000
+             p5_sisal         head             0.380000              0.00000             0.380000             0.866667
+           p6_tamchen         head              1.95000             0.761134              1.18887             0.866667
+   rm01_deportivo_sur         head              1.64500              1.00478             0.640224             0.666667
+     rm02_obervatorio         head              1.40000             0.843962             0.556038             0.733333
+      rm03_acuaparque         head              1.70000             0.912083             0.787917             0.666667
+        rm04_bomberos         head              1.35000             0.540226             0.809774             0.666667
+      rm05_portes_gil         head              1.29500             0.848083             0.446917             0.533333
+        rm06_chalmuch         head              1.14500             0.717102             0.427898             0.533333
+        rm07_anicabil         head              1.43000             0.663023             0.766977             0.600000
+          rm08_chenku         head              1.27500             0.648316             0.626684             0.666667
+     rm09_tecnologico         head              1.10000             0.676431             0.423569             0.600000
+              rm11ucu         head              1.12000             0.525500             0.594500             0.600000
+          rm12cheuman         head              1.33000             0.450648             0.879352             0.733333
+        rm13tixcuytun         head              1.42000             0.560554             0.859446             0.600000
+         rm14megalita         head              1.32000             0.482263             0.837737             0.666667
+   rm15sierra_papacal         head             0.675000             0.235908             0.439092             0.666667
+       rm18_sac_nicte         head             0.950000             0.314862             0.635138             0.600000
+        rm_10_sagarpa         head              1.05500             0.738500             0.316500             0.533333
+         rm_16_rancho         head             0.455000             0.212288             0.242712             0.400000
+     rm_17_dzidzilche         head             0.560000             0.187740             0.372260             0.733333
+           rm_19_crio         head             0.600000             0.188712             0.411288             0.666667
+           rm_20_baag         head             0.295000              0.00000             0.295000             0.666667
+ w_1a_plantel_sn_juan         head             0.250000              0.00000             0.250000             0.866667
+     w_1b_san_eduardo         head             0.515000             0.161011             0.353989             0.933333
+  w_1c_quinta_rosario         head             0.740000             0.414319             0.325681             0.933333
+    w_2a_dzilam_bravo         head             0.270000              0.00000             0.270000              1.00000
+     w_2b_dzilam_glez         head             0.990000             0.144703             0.845297              1.00000
+    w_2c_san_gregorio         head              1.64500             0.503605              1.14140             0.933333
+      w_3a_san_felipe         head              1.40000              0.00000              1.40000             0.933333
+     w_3b_santa_pilar         head              2.05500             0.168606              1.88639             0.933333
+      w_3c_san_isidro         head              2.28000             0.393481              1.88652             0.933333
+        w_4a_la_curva         head              1.82000              0.00000              1.82000             0.933333
+       w_4b_moctezuma         head              3.98000             0.133949              3.84605              1.00000
+   w_4c_vista_hermosa         head              5.25000             0.586208              4.66379             0.866667
+
+Final composite objective function 
+  Final phi                                           Total : 62.8274
+  Contribution to phi from observation group         "head" : 62.8274
+
+
+Number of forward model runs performed during optimization: 78
+
+
+
+
+-----------------------------------------------------------------------
+Note: The following uncertainty estimates were calculated using 
+      Schur's complement for linear-based conditional uncertainty 
+      propagation.  For a derivation from Bayes equation, see 
+      M. N. Fienen, J. E. Doherty, R. J. Hunt, and H. W. Reeves. 
+      2010. 'Using Prediction Uncertainty Analysis to Design 
+      Hydrologic Monitoring Networks: Example Applications 
+      from the Great Lakes Water Availability Pilot Project'. 
+      See PEST++ V3 documentation for implementation details.
+-----------------------------------------------------------------------
+
+Note: Any observations or prior information equations with a group name
+      starting with 'regul' are dropped from the Jacobian and observation
+      covariance matrices before uncertainty calculations.  Please
+      make sure that all expert knowledge is expressed in the prior 
+      parameter bounds or through a covariance matrix, which can be 
+      supplied as a ++ option as '++parcov(<matrix_file_name>)',
+      where <matrix_file_name> can be an ASCII PEST-compatible matrix file (.mat) or
+      a PEST-compatible uncertainty file (.unc).
+
+starting FOSM uncertainty analyses for iteration -999
+
+
+posterior parameter covariance matrix written to file 'model.post.cov'
+
+current parameter uncertainty summary: 
+
+ name                         prior_mean         prior_stdev   prior_lower_bound   prior_upper_bound           post_mean          post_stdev    post_lower_bound    post_upper_bound
+mfgw_rest                         0.00000            0.250000           -0.500000            0.500000         -0.00461479            0.249987           -0.504589            0.495359
+mfgw_upland                       0.00000            0.250000           -0.500000            0.500000             0.00000            0.250000           -0.500000            0.500000
+mk_rest_l1                        0.00000            0.325257           -0.650515            0.650515          -0.0345108            0.325234           -0.684979            0.615957
+mk_rest_l2                        0.00000            0.325257           -0.650515            0.650515            0.183888            0.225496           -0.267105            0.634880
+mk_ring_l1                        0.00000            0.325257           -0.650515            0.650515          -0.0133753            0.325257           -0.663890            0.637139
+mk_ring_l2                        0.00000            0.250000           -0.500000            0.500000             0.00000            0.250000           -0.500000            0.500000
+mr_rest                           0.00000            0.250000           -0.500000            0.500000           0.0948033            0.181090           -0.267376            0.456983
+mr_upland                         0.00000            0.250000           -0.500000            0.500000          -0.0170603            0.249999           -0.517059            0.482938
+the above parameter uncertainty summary was written to file 'model.par.usum.csv'
+
+
+
+pestpp-glm analysis complete...
+started at 04/10/26 11:20:25
+finished at 04/10/26 18:12:33
+took 412.183 minutes

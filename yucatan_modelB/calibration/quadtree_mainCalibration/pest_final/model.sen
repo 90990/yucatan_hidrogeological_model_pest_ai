@@ -1,0 +1,39 @@
+                    PARAMETER SENSITIVITIES: CASE model
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 1   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   mfgw_rest       pargp        1.00000000000        0.00104504821599    
+   mfgw_upland     pargp        1.00000000000        0.00000000000       
+   mk_rest_l1      pargp        1.00000000000        0.00193300909288    
+   mk_rest_l2      pargp        1.00000000000        0.126270334843      
+   mk_ring_l1      pargp        1.00000000000        0.000215222539253   
+   mk_ring_l2      pargp        1.00000000000        0.00000000000       
+   mr_rest         pargp        1.00000000000        0.170082533527      
+   mr_upland       pargp        1.00000000000        0.000980893930234   
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 2   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   mfgw_rest       pargp        0.981912941000       0.000231017601466   
+   mfgw_upland     pargp        1.00000000000        0.00000000000       
+   mk_rest_l1      pargp        0.982675571100       0.000461892071384   
+   mk_rest_l2      pargp        1.23653863990        0.108529406148      
+   mk_ring_l1      pargp        0.993062027500       0.00108462072283    
+   mk_ring_l2      pargp        1.00000000000        0.00000000000       
+   mr_rest         pargp        1.04831680000        0.145542387117      
+   mr_upland       pargp        0.986386264000       0.000361433749987   
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 3   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   mfgw_rest       pargp        0.967288590000       0.00133355791271    
+   mfgw_upland     pargp        1.00000000000        6.07963255896e-16   
+   mk_rest_l1      pargp        0.941281250700       0.00147495821927    
+   mk_rest_l2      pargp        1.36249831330        0.112661496975      
+   mk_ring_l1      pargp        0.969671614700       9.30142151550e-05   
+   mk_ring_l2      pargp        1.00000000000        6.07963255896e-16   
+   mr_rest         pargp        1.13248900000        0.139880456108      
+   mr_upland       pargp        0.967522396000       0.000202758920067   
+
+

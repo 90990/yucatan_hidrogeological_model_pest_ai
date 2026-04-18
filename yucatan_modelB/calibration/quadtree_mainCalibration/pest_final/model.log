@@ -1,0 +1,937 @@
+time,elapsed_seconds,message
+11:20:25,6.31e-05,PEST++ performance logger started
+11:20:25,0.0020211,starting to process control file
+11:20:25,0.0091527,finished processing control file
+11:20:25,0.0037358,starting basic model IO error checking
+11:20:25,0.0008665,finished basic model IO error checking
+11:20:25,0.0003937,loading parcov
+11:20:25,0.0030068,beginning iteration 1
+11:20:25,7.43e-05,commencing to build jacobian parameter sets
+11:20:25,0.0014005,jacobian parameter sets built, commencing model runs
+12:05:04,2678.54,jacobian runs complete, processing runs
+12:05:04,0.0030735,processing jacobian runs complete
+12:05:04,5.48e-05,saving jacobian and sen files
+12:05:04,0.0041535,commencing calculation of upgrade vector
+12:05:04,0.0005365,forming JtQJ matrix
+12:05:04,4.48e-05,commencing to scale JtQJ matrix- first SVD...
+12:05:04,0.0003617,starting REDSVD
+12:05:04,0.0005776,retrieving REDSVD components
+12:05:04,2.84e-05,trimming REDSVD components to 5elements
+12:05:04,1.87e-05,done REDSVD
+12:05:04,2.23e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,5.6e-06,JS
+12:05:04,1.24e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+12:05:04,3.7e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,5.8e-06,commencing SVD factorization of lambda-scaled JtQJ
+12:05:04,6.7e-06,starting REDSVD
+12:05:04,2.04e-05,retrieving REDSVD components
+12:05:04,9e-06,trimming REDSVD components to 5elements
+12:05:04,6.4e-06,done REDSVD
+12:05:04,5.4e-06,SVD factorization complete
+12:05:04,0.000366,commencing linear algebra multiplication to compute upgrade
+12:05:04,1.6e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 5: cols = 8: size = 40: nonzeros = 30
+12:05:04,1.06e-05,U info: rows = 8: cols = 5: size = 40: nonzeros = 30
+12:05:04,9.7e-06,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+12:05:04,8.78e-05,linear algebra multiplication to compute upgrade complete
+12:05:04,3.61e-05,commencing check of parameter bounds and gradients
+12:05:04,0.0012519,beginning upgrade vector calculations, lambda = 0.1
+12:05:04,0.0001561,commencing calculation of upgrade vector
+12:05:04,0.0003842,forming JtQJ matrix
+12:05:04,4.67e-05,commencing to scale JtQJ matrix- first SVD...
+12:05:04,1.12e-05,starting REDSVD
+12:05:04,3.51e-05,retrieving REDSVD components
+12:05:04,1.4e-05,trimming REDSVD components to 5elements
+12:05:04,1.02e-05,done REDSVD
+12:05:04,1.92e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,8.5e-06,JS
+12:05:04,1.67e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+12:05:04,3.97e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,9.4e-06,commencing SVD factorization of lambda-scaled JtQJ
+12:05:04,8.4e-06,starting REDSVD
+12:05:04,2.86e-05,retrieving REDSVD components
+12:05:04,1.37e-05,trimming REDSVD components to 6elements
+12:05:04,1.18e-05,done REDSVD
+12:05:04,8.5e-06,SVD factorization complete
+12:05:04,0.0001476,commencing linear algebra multiplication to compute upgrade
+12:05:04,1.2e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 6: cols = 8: size = 48: nonzeros = 36
+12:05:04,1.09e-05,U info: rows = 8: cols = 6: size = 48: nonzeros = 36
+12:05:04,1.18e-05,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+12:05:04,6.8e-05,linear algebra multiplication to compute upgrade complete
+12:05:04,3.03e-05,commencing check of parameter bounds and gradients
+12:05:04,1.62e-05,commencing calculation of upgrade vector
+12:05:04,0.0003275,forming JtQJ matrix
+12:05:04,4.07e-05,commencing to scale JtQJ matrix- first SVD...
+12:05:04,9.3e-06,starting REDSVD
+12:05:04,2.68e-05,retrieving REDSVD components
+12:05:04,1.4e-05,trimming REDSVD components to 5elements
+12:05:04,1.17e-05,done REDSVD
+12:05:04,1.69e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,8.1e-06,JS
+12:05:04,1.52e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+12:05:04,3.82e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,8.1e-06,commencing SVD factorization of lambda-scaled JtQJ
+12:05:04,5.63e-05,starting REDSVD
+12:05:04,3.46e-05,retrieving REDSVD components
+12:05:04,1.31e-05,trimming REDSVD components to 6elements
+12:05:04,1.13e-05,done REDSVD
+12:05:04,8.1e-06,SVD factorization complete
+12:05:04,0.0001579,commencing linear algebra multiplication to compute upgrade
+12:05:04,1.03e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 6: cols = 8: size = 48: nonzeros = 36
+12:05:04,9.6e-06,U info: rows = 8: cols = 6: size = 48: nonzeros = 36
+12:05:04,9.7e-06,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+12:05:04,6.5e-05,linear algebra multiplication to compute upgrade complete
+12:05:04,4.4e-05,commencing check of parameter bounds
+12:05:04,2.5e-05,limiting out of bounds pars
+12:05:04,3.29e-05,change limit/bound enforcement for lambda 0.1: , scaling factor: 1
+12:05:04,1.39e-05,checking for denormal floating point values
+12:05:04,1.28e-05,transforming upgrade pars to model pars
+12:05:04,1.2e-05,writing upgrade vector to csv file
+12:05:04,0.0004535,beginning upgrade vector calculations, lambda = 1
+12:05:04,0.0001154,commencing calculation of upgrade vector
+12:05:04,0.0003248,forming JtQJ matrix
+12:05:04,4.41e-05,commencing to scale JtQJ matrix- first SVD...
+12:05:04,1.06e-05,starting REDSVD
+12:05:04,3e-05,retrieving REDSVD components
+12:05:04,1.33e-05,trimming REDSVD components to 5elements
+12:05:04,9.8e-06,done REDSVD
+12:05:04,1.86e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,9.1e-06,JS
+12:05:04,1.72e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+12:05:04,5.03e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,1.1e-05,commencing SVD factorization of lambda-scaled JtQJ
+12:05:04,8.8e-06,starting REDSVD
+12:05:04,2.84e-05,retrieving REDSVD components
+12:05:04,1.49e-05,trimming REDSVD components to 6elements
+12:05:04,1.18e-05,done REDSVD
+12:05:04,8.8e-06,SVD factorization complete
+12:05:04,0.0001959,commencing linear algebra multiplication to compute upgrade
+12:05:04,1.01e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 6: cols = 8: size = 48: nonzeros = 36
+12:05:04,6.6e-06,U info: rows = 8: cols = 6: size = 48: nonzeros = 36
+12:05:04,6.1e-06,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+12:05:04,7.86e-05,linear algebra multiplication to compute upgrade complete
+12:05:04,3.02e-05,commencing check of parameter bounds and gradients
+12:05:04,9.6e-06,commencing calculation of upgrade vector
+12:05:04,0.0002371,forming JtQJ matrix
+12:05:04,4.05e-05,commencing to scale JtQJ matrix- first SVD...
+12:05:04,6.3e-06,starting REDSVD
+12:05:04,2.1e-05,retrieving REDSVD components
+12:05:04,9e-06,trimming REDSVD components to 5elements
+12:05:04,8e-06,done REDSVD
+12:05:04,1.22e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,5.5e-06,JS
+12:05:04,2.63e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+12:05:04,3.8e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,5.8e-06,commencing SVD factorization of lambda-scaled JtQJ
+12:05:04,4.8e-06,starting REDSVD
+12:05:04,1.94e-05,retrieving REDSVD components
+12:05:04,8.2e-06,trimming REDSVD components to 6elements
+12:05:04,6.8e-06,done REDSVD
+12:05:04,5e-06,SVD factorization complete
+12:05:04,0.0001197,commencing linear algebra multiplication to compute upgrade
+12:05:04,1.13e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 6: cols = 8: size = 48: nonzeros = 36
+12:05:04,9.6e-06,U info: rows = 8: cols = 6: size = 48: nonzeros = 36
+12:05:04,9.7e-06,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+12:05:04,6.26e-05,linear algebra multiplication to compute upgrade complete
+12:05:04,2.66e-05,commencing check of parameter bounds
+12:05:04,7.6e-06,limiting out of bounds pars
+12:05:04,1.06e-05,change limit/bound enforcement for lambda 1: , scaling factor: 1
+12:05:04,5.1e-06,checking for denormal floating point values
+12:05:04,5.2e-06,transforming upgrade pars to model pars
+12:05:04,5.6e-06,writing upgrade vector to csv file
+12:05:04,0.000425,beginning upgrade vector calculations, lambda = 10
+12:05:04,0.0001374,commencing calculation of upgrade vector
+12:05:04,0.000356,forming JtQJ matrix
+12:05:04,5.25e-05,commencing to scale JtQJ matrix- first SVD...
+12:05:04,9.7e-06,starting REDSVD
+12:05:04,2.9e-05,retrieving REDSVD components
+12:05:04,1.18e-05,trimming REDSVD components to 5elements
+12:05:04,8.8e-06,done REDSVD
+12:05:04,1.66e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,7.2e-06,JS
+12:05:04,1.89e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+12:05:04,4.38e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,8.1e-06,commencing SVD factorization of lambda-scaled JtQJ
+12:05:04,7.3e-06,starting REDSVD
+12:05:04,2.5e-05,retrieving REDSVD components
+12:05:04,1.13e-05,trimming REDSVD components to 6elements
+12:05:04,9.6e-06,done REDSVD
+12:05:04,7.7e-06,SVD factorization complete
+12:05:04,0.0001262,commencing linear algebra multiplication to compute upgrade
+12:05:04,8.8e-06,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 6: cols = 8: size = 48: nonzeros = 36
+12:05:04,8.8e-06,U info: rows = 8: cols = 6: size = 48: nonzeros = 36
+12:05:04,8.2e-06,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+12:05:04,6.15e-05,linear algebra multiplication to compute upgrade complete
+12:05:04,2.05e-05,commencing check of parameter bounds and gradients
+12:05:04,1e-05,commencing calculation of upgrade vector
+12:05:04,0.0002883,forming JtQJ matrix
+12:05:04,5.06e-05,commencing to scale JtQJ matrix- first SVD...
+12:05:04,1.05e-05,starting REDSVD
+12:05:04,1.9e-05,retrieving REDSVD components
+12:05:04,8.2e-06,trimming REDSVD components to 5elements
+12:05:04,6.9e-06,done REDSVD
+12:05:04,1.12e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,4.7e-06,JS
+12:05:04,2.06e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+12:05:04,3.32e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,5.1e-06,commencing SVD factorization of lambda-scaled JtQJ
+12:05:04,4.6e-06,starting REDSVD
+12:05:04,1.87e-05,retrieving REDSVD components
+12:05:04,7.3e-06,trimming REDSVD components to 6elements
+12:05:04,6.4e-06,done REDSVD
+12:05:04,5e-06,SVD factorization complete
+12:05:04,8.75e-05,commencing linear algebra multiplication to compute upgrade
+12:05:04,6.3e-06,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 6: cols = 8: size = 48: nonzeros = 36
+12:05:04,6e-06,U info: rows = 8: cols = 6: size = 48: nonzeros = 36
+12:05:04,5.7e-06,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+12:05:04,4.19e-05,linear algebra multiplication to compute upgrade complete
+12:05:04,2.39e-05,commencing check of parameter bounds
+12:05:04,1.23e-05,limiting out of bounds pars
+12:05:04,1.64e-05,change limit/bound enforcement for lambda 10: , scaling factor: 1
+12:05:04,9.3e-06,checking for denormal floating point values
+12:05:04,8.9e-06,transforming upgrade pars to model pars
+12:05:04,9.6e-06,writing upgrade vector to csv file
+12:05:04,0.0007438,beginning upgrade vector calculations, lambda = 100
+12:05:04,0.0012009,commencing calculation of upgrade vector
+12:05:04,0.0004186,forming JtQJ matrix
+12:05:04,5.81e-05,commencing to scale JtQJ matrix- first SVD...
+12:05:04,1.64e-05,starting REDSVD
+12:05:04,3.92e-05,retrieving REDSVD components
+12:05:04,2.23e-05,trimming REDSVD components to 5elements
+12:05:04,1.68e-05,done REDSVD
+12:05:04,2.37e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,1.03e-05,JS
+12:05:04,1.85e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+12:05:04,5.82e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,1.61e-05,commencing SVD factorization of lambda-scaled JtQJ
+12:05:04,9.9e-06,starting REDSVD
+12:05:04,3.44e-05,retrieving REDSVD components
+12:05:04,2.06e-05,trimming REDSVD components to 6elements
+12:05:04,1.57e-05,done REDSVD
+12:05:04,1.31e-05,SVD factorization complete
+12:05:04,0.0002435,commencing linear algebra multiplication to compute upgrade
+12:05:04,1.43e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 6: cols = 8: size = 48: nonzeros = 36
+12:05:04,1.38e-05,U info: rows = 8: cols = 6: size = 48: nonzeros = 36
+12:05:04,1.11e-05,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+12:05:04,7.82e-05,linear algebra multiplication to compute upgrade complete
+12:05:04,3.65e-05,commencing check of parameter bounds and gradients
+12:05:04,1.9e-05,commencing calculation of upgrade vector
+12:05:04,0.0003556,forming JtQJ matrix
+12:05:04,4.95e-05,commencing to scale JtQJ matrix- first SVD...
+12:05:04,1.21e-05,starting REDSVD
+12:05:04,2.94e-05,retrieving REDSVD components
+12:05:04,1.98e-05,trimming REDSVD components to 5elements
+12:05:04,1.59e-05,done REDSVD
+12:05:04,2.22e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,1.25e-05,JS
+12:05:04,3.68e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+12:05:04,4.84e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,1.52e-05,commencing SVD factorization of lambda-scaled JtQJ
+12:05:04,1.09e-05,starting REDSVD
+12:05:04,3.42e-05,retrieving REDSVD components
+12:05:04,2.15e-05,trimming REDSVD components to 6elements
+12:05:04,1.52e-05,done REDSVD
+12:05:04,1.2e-05,SVD factorization complete
+12:05:04,0.0001753,commencing linear algebra multiplication to compute upgrade
+12:05:04,1.39e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 6: cols = 8: size = 48: nonzeros = 36
+12:05:04,1.05e-05,U info: rows = 8: cols = 6: size = 48: nonzeros = 36
+12:05:04,1.2e-05,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+12:05:04,7.88e-05,linear algebra multiplication to compute upgrade complete
+12:05:04,3.36e-05,commencing check of parameter bounds
+12:05:04,1.59e-05,limiting out of bounds pars
+12:05:04,1.96e-05,change limit/bound enforcement for lambda 100: , scaling factor: 1
+12:05:04,1.01e-05,checking for denormal floating point values
+12:05:04,9.8e-06,transforming upgrade pars to model pars
+12:05:04,9.3e-06,writing upgrade vector to csv file
+12:05:04,0.000472,beginning upgrade vector calculations, lambda = 1000
+12:05:04,9.66e-05,commencing calculation of upgrade vector
+12:05:04,0.0003538,forming JtQJ matrix
+12:05:04,4.67e-05,commencing to scale JtQJ matrix- first SVD...
+12:05:04,1.15e-05,starting REDSVD
+12:05:04,2.96e-05,retrieving REDSVD components
+12:05:04,1.56e-05,trimming REDSVD components to 5elements
+12:05:04,1.15e-05,done REDSVD
+12:05:04,2.01e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,1.01e-05,JS
+12:05:04,1.79e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+12:05:04,4.62e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,1.15e-05,commencing SVD factorization of lambda-scaled JtQJ
+12:05:04,9.3e-06,starting REDSVD
+12:05:04,3.07e-05,retrieving REDSVD components
+12:05:04,1.53e-05,trimming REDSVD components to 6elements
+12:05:04,1.32e-05,done REDSVD
+12:05:04,1.08e-05,SVD factorization complete
+12:05:04,0.0001636,commencing linear algebra multiplication to compute upgrade
+12:05:04,1.23e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 6: cols = 8: size = 48: nonzeros = 36
+12:05:04,1.05e-05,U info: rows = 8: cols = 6: size = 48: nonzeros = 36
+12:05:04,1e-05,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+12:05:04,6.35e-05,linear algebra multiplication to compute upgrade complete
+12:05:04,2.66e-05,commencing check of parameter bounds and gradients
+12:05:04,1.25e-05,commencing calculation of upgrade vector
+12:05:04,0.0002337,forming JtQJ matrix
+12:05:04,3.16e-05,commencing to scale JtQJ matrix- first SVD...
+12:05:04,5.3e-06,starting REDSVD
+12:05:04,1.84e-05,retrieving REDSVD components
+12:05:04,7.9e-06,trimming REDSVD components to 5elements
+12:05:04,6.9e-06,done REDSVD
+12:05:04,1.08e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,4.6e-06,JS
+12:05:04,1.03e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+12:05:04,2.97e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+12:05:04,5.1e-06,commencing SVD factorization of lambda-scaled JtQJ
+12:05:04,3.47e-05,starting REDSVD
+12:05:04,2.42e-05,retrieving REDSVD components
+12:05:04,8.7e-06,trimming REDSVD components to 6elements
+12:05:04,6.6e-06,done REDSVD
+12:05:04,5e-06,SVD factorization complete
+12:05:04,8.9e-05,commencing linear algebra multiplication to compute upgrade
+12:05:04,6.4e-06,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 6: cols = 8: size = 48: nonzeros = 36
+12:05:04,5.8e-06,U info: rows = 8: cols = 6: size = 48: nonzeros = 36
+12:05:04,5.7e-06,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+12:05:04,4.57e-05,linear algebra multiplication to compute upgrade complete
+12:05:04,1.56e-05,commencing check of parameter bounds
+12:05:04,6.5e-06,limiting out of bounds pars
+12:05:04,9.3e-06,change limit/bound enforcement for lambda 1000: , scaling factor: 1
+12:05:04,5e-06,checking for denormal floating point values
+12:05:04,5.2e-06,transforming upgrade pars to model pars
+12:05:04,5.3e-06,writing upgrade vector to csv file
+12:05:04,0.0009652,LinearAnalysis::glm_iter_fosm
+12:05:04,9.91e-05,starting FOSM uncertainty analyses for iteration 0
+12:05:04,0.0020591,loading obscov
+12:05:04,6.64e-05,loading parcov
+12:05:04,0.0004689,set_predictions
+12:05:04,7.27e-05,parameter fosm calcs
+12:05:04,1.71e-05,LinearAnalysis::calc_posterior
+12:05:04,6.7e-06,LinearAnalysis::align
+12:05:04,0.0001505,LinearAnalysis::prior_prediction_variance()::invert obscov
+12:05:04,1.01e-05,inverting diagonal matrix in place
+12:05:04,1.27e-05,LinearAnalysis::calc_posterior() form JtQJ
+12:05:04,5.53e-05,LinearAnalysis::calc_posterior() invert prior parcov
+12:05:04,2.14e-05,LinearAnalysis::calc_posterior() form posterior parcov
+12:05:04,9.4e-06,LinearAnalysis::calc_posterior() invert posterior parcov
+12:05:04,5.2e-06,inverting non-diagonal matrix in place
+13:22:08,4624.2,completed iteration 1
+13:22:08,0.0173224,beginning iteration 2
+13:22:08,0.0002385,commencing to build jacobian parameter sets
+13:22:08,0.0028586,jacobian parameter sets built, commencing model runs
+13:57:25,2117.03,jacobian runs complete, processing runs
+13:57:25,0.0037791,processing jacobian runs complete
+13:57:25,2.71e-05,saving jacobian and sen files
+13:57:25,0.0044913,commencing calculation of upgrade vector
+13:57:25,0.0005275,forming JtQJ matrix
+13:57:25,5.5e-05,commencing to scale JtQJ matrix- first SVD...
+13:57:25,0.0002002,starting REDSVD
+13:57:25,0.0007714,retrieving REDSVD components
+13:57:25,2.57e-05,trimming REDSVD components to 5elements
+13:57:25,1.07e-05,done REDSVD
+13:57:25,0.0001951,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,6.21e-05,JS
+13:57:25,2.23e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+13:57:25,4.12e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,6.9e-06,commencing SVD factorization of lambda-scaled JtQJ
+13:57:25,9.8e-06,starting REDSVD
+13:57:25,3.44e-05,retrieving REDSVD components
+13:57:25,1.85e-05,trimming REDSVD components to 5elements
+13:57:25,1.4e-05,done REDSVD
+13:57:25,8.1e-06,SVD factorization complete
+13:57:25,0.0004965,commencing linear algebra multiplication to compute upgrade
+13:57:25,1.42e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 5: cols = 8: size = 40: nonzeros = 30
+13:57:25,1.03e-05,U info: rows = 8: cols = 5: size = 40: nonzeros = 30
+13:57:25,9.8e-06,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+13:57:25,9.33e-05,linear algebra multiplication to compute upgrade complete
+13:57:25,3.8e-05,commencing check of parameter bounds and gradients
+13:57:25,0.0019167,beginning upgrade vector calculations, lambda = 0.1
+13:57:25,0.0003017,commencing calculation of upgrade vector
+13:57:25,0.0005226,forming JtQJ matrix
+13:57:25,5.15e-05,commencing to scale JtQJ matrix- first SVD...
+13:57:25,1.45e-05,starting REDSVD
+13:57:25,2.86e-05,retrieving REDSVD components
+13:57:25,9.4e-06,trimming REDSVD components to 5elements
+13:57:25,7e-06,done REDSVD
+13:57:25,1.45e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,9.2e-06,JS
+13:57:25,1.34e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+13:57:25,7.23e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,1.19e-05,commencing SVD factorization of lambda-scaled JtQJ
+13:57:25,5.7e-06,starting REDSVD
+13:57:25,2.28e-05,retrieving REDSVD components
+13:57:25,9.1e-06,trimming REDSVD components to 6elements
+13:57:25,7.4e-06,done REDSVD
+13:57:25,5.7e-06,SVD factorization complete
+13:57:25,0.0001198,commencing linear algebra multiplication to compute upgrade
+13:57:25,8.2e-06,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 6: cols = 8: size = 48: nonzeros = 36
+13:57:25,6.2e-06,U info: rows = 8: cols = 6: size = 48: nonzeros = 36
+13:57:25,5.8e-06,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+13:57:25,4.93e-05,linear algebra multiplication to compute upgrade complete
+13:57:25,2.1e-05,commencing check of parameter bounds and gradients
+13:57:25,8.8e-06,commencing calculation of upgrade vector
+13:57:25,0.0002319,forming JtQJ matrix
+13:57:25,3.18e-05,commencing to scale JtQJ matrix- first SVD...
+13:57:25,1.09e-05,starting REDSVD
+13:57:25,2.82e-05,retrieving REDSVD components
+13:57:25,1.17e-05,trimming REDSVD components to 5elements
+13:57:25,0.0001051,done REDSVD
+13:57:25,2.15e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,8.2e-06,JS
+13:57:25,1.59e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+13:57:25,3.96e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,4.14e-05,commencing SVD factorization of lambda-scaled JtQJ
+13:57:25,1.31e-05,starting REDSVD
+13:57:25,3.28e-05,retrieving REDSVD components
+13:57:25,1.34e-05,trimming REDSVD components to 6elements
+13:57:25,1.37e-05,done REDSVD
+13:57:25,8.9e-06,SVD factorization complete
+13:57:25,0.0001532,commencing linear algebra multiplication to compute upgrade
+13:57:25,1.26e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 6: cols = 8: size = 48: nonzeros = 36
+13:57:25,7e-06,U info: rows = 8: cols = 6: size = 48: nonzeros = 36
+13:57:25,6e-06,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+13:57:25,6.39e-05,linear algebra multiplication to compute upgrade complete
+13:57:25,2.72e-05,commencing check of parameter bounds
+13:57:25,1.19e-05,limiting out of bounds pars
+13:57:25,2.3e-05,change limit/bound enforcement for lambda 0.1: , scaling factor: 1
+13:57:25,8.4e-06,checking for denormal floating point values
+13:57:25,8.3e-06,transforming upgrade pars to model pars
+13:57:25,8.7e-06,writing upgrade vector to csv file
+13:57:25,0.0008754,beginning upgrade vector calculations, lambda = 1
+13:57:25,0.0002661,commencing calculation of upgrade vector
+13:57:25,0.0003826,forming JtQJ matrix
+13:57:25,4.75e-05,commencing to scale JtQJ matrix- first SVD...
+13:57:25,1.04e-05,starting REDSVD
+13:57:25,3.32e-05,retrieving REDSVD components
+13:57:25,1.21e-05,trimming REDSVD components to 5elements
+13:57:25,9.9e-06,done REDSVD
+13:57:25,1.83e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,7.9e-06,JS
+13:57:25,1.62e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+13:57:25,3.85e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,9e-06,commencing SVD factorization of lambda-scaled JtQJ
+13:57:25,8e-06,starting REDSVD
+13:57:25,2.65e-05,retrieving REDSVD components
+13:57:25,1.19e-05,trimming REDSVD components to 6elements
+13:57:25,1.03e-05,done REDSVD
+13:57:25,8.1e-06,SVD factorization complete
+13:57:25,0.0002033,commencing linear algebra multiplication to compute upgrade
+13:57:25,1.21e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 6: cols = 8: size = 48: nonzeros = 36
+13:57:25,9.6e-06,U info: rows = 8: cols = 6: size = 48: nonzeros = 36
+13:57:25,8.9e-06,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+13:57:25,6.11e-05,linear algebra multiplication to compute upgrade complete
+13:57:25,2.51e-05,commencing check of parameter bounds and gradients
+13:57:25,1.32e-05,commencing calculation of upgrade vector
+13:57:25,0.0002118,forming JtQJ matrix
+13:57:25,3.03e-05,commencing to scale JtQJ matrix- first SVD...
+13:57:25,6.1e-06,starting REDSVD
+13:57:25,2.19e-05,retrieving REDSVD components
+13:57:25,1.58e-05,trimming REDSVD components to 5elements
+13:57:25,8.7e-06,done REDSVD
+13:57:25,1.09e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,4.9e-06,JS
+13:57:25,1.09e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+13:57:25,2.61e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,5.2e-06,commencing SVD factorization of lambda-scaled JtQJ
+13:57:25,4.6e-06,starting REDSVD
+13:57:25,1.98e-05,retrieving REDSVD components
+13:57:25,7.4e-06,trimming REDSVD components to 6elements
+13:57:25,5.9e-06,done REDSVD
+13:57:25,4.9e-06,SVD factorization complete
+13:57:25,8.9e-05,commencing linear algebra multiplication to compute upgrade
+13:57:25,6e-06,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 6: cols = 8: size = 48: nonzeros = 36
+13:57:25,5.9e-06,U info: rows = 8: cols = 6: size = 48: nonzeros = 36
+13:57:25,5.8e-06,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+13:57:25,4.28e-05,linear algebra multiplication to compute upgrade complete
+13:57:25,1.71e-05,commencing check of parameter bounds
+13:57:25,6.8e-06,limiting out of bounds pars
+13:57:25,9.6e-06,change limit/bound enforcement for lambda 1: , scaling factor: 1
+13:57:25,5e-06,checking for denormal floating point values
+13:57:25,5.4e-06,transforming upgrade pars to model pars
+13:57:25,5.3e-06,writing upgrade vector to csv file
+13:57:25,0.0003168,beginning upgrade vector calculations, lambda = 10
+13:57:25,0.0001793,commencing calculation of upgrade vector
+13:57:25,0.0003306,forming JtQJ matrix
+13:57:25,4.31e-05,commencing to scale JtQJ matrix- first SVD...
+13:57:25,1.06e-05,starting REDSVD
+13:57:25,3.05e-05,retrieving REDSVD components
+13:57:25,1.4e-05,trimming REDSVD components to 5elements
+13:57:25,1.11e-05,done REDSVD
+13:57:25,1.91e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,9.8e-06,JS
+13:57:25,1.82e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+13:57:25,4.2e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,1.06e-05,commencing SVD factorization of lambda-scaled JtQJ
+13:57:25,9.3e-06,starting REDSVD
+13:57:25,3e-05,retrieving REDSVD components
+13:57:25,1.45e-05,trimming REDSVD components to 6elements
+13:57:25,1.24e-05,done REDSVD
+13:57:25,9.6e-06,SVD factorization complete
+13:57:25,0.0001617,commencing linear algebra multiplication to compute upgrade
+13:57:25,1.24e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 6: cols = 8: size = 48: nonzeros = 36
+13:57:25,1.09e-05,U info: rows = 8: cols = 6: size = 48: nonzeros = 36
+13:57:25,1.09e-05,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+13:57:25,6.62e-05,linear algebra multiplication to compute upgrade complete
+13:57:25,2.78e-05,commencing check of parameter bounds and gradients
+13:57:25,1.25e-05,commencing calculation of upgrade vector
+13:57:25,0.0002996,forming JtQJ matrix
+13:57:25,4.08e-05,commencing to scale JtQJ matrix- first SVD...
+13:57:25,9.8e-06,starting REDSVD
+13:57:25,2.77e-05,retrieving REDSVD components
+13:57:25,1.31e-05,trimming REDSVD components to 5elements
+13:57:25,1.08e-05,done REDSVD
+13:57:25,1.74e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,8.4e-06,JS
+13:57:25,1.68e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+13:57:25,4.03e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,9.3e-06,commencing SVD factorization of lambda-scaled JtQJ
+13:57:25,8.1e-06,starting REDSVD
+13:57:25,2.89e-05,retrieving REDSVD components
+13:57:25,1.28e-05,trimming REDSVD components to 6elements
+13:57:25,1.09e-05,done REDSVD
+13:57:25,8.8e-06,SVD factorization complete
+13:57:25,0.0001377,commencing linear algebra multiplication to compute upgrade
+13:57:25,7.3e-06,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 6: cols = 8: size = 48: nonzeros = 36
+13:57:25,6.2e-06,U info: rows = 8: cols = 6: size = 48: nonzeros = 36
+13:57:25,9.6e-06,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+13:57:25,4.61e-05,linear algebra multiplication to compute upgrade complete
+13:57:25,1.69e-05,commencing check of parameter bounds
+13:57:25,6.7e-06,limiting out of bounds pars
+13:57:25,9.5e-06,change limit/bound enforcement for lambda 10: , scaling factor: 1
+13:57:25,5.2e-06,checking for denormal floating point values
+13:57:25,4.05e-05,transforming upgrade pars to model pars
+13:57:25,1.76e-05,writing upgrade vector to csv file
+13:57:25,0.0003436,beginning upgrade vector calculations, lambda = 100
+13:57:25,0.0001752,commencing calculation of upgrade vector
+13:57:25,0.0003004,forming JtQJ matrix
+13:57:25,3.77e-05,commencing to scale JtQJ matrix- first SVD...
+13:57:25,6.9e-06,starting REDSVD
+13:57:25,2.2e-05,retrieving REDSVD components
+13:57:25,8.7e-06,trimming REDSVD components to 5elements
+13:57:25,6.4e-06,done REDSVD
+13:57:25,1.26e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,5.4e-06,JS
+13:57:25,1.13e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+13:57:25,2.82e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,5.7e-06,commencing SVD factorization of lambda-scaled JtQJ
+13:57:25,5.1e-06,starting REDSVD
+13:57:25,1.98e-05,retrieving REDSVD components
+13:57:25,8.1e-06,trimming REDSVD components to 6elements
+13:57:25,6.9e-06,done REDSVD
+13:57:25,5.5e-06,SVD factorization complete
+13:57:25,9.85e-05,commencing linear algebra multiplication to compute upgrade
+13:57:25,1.15e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 6: cols = 8: size = 48: nonzeros = 36
+13:57:25,1.2e-05,U info: rows = 8: cols = 6: size = 48: nonzeros = 36
+13:57:25,9.9e-06,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+13:57:25,6.91e-05,linear algebra multiplication to compute upgrade complete
+13:57:25,3.21e-05,commencing check of parameter bounds and gradients
+13:57:25,1.33e-05,commencing calculation of upgrade vector
+13:57:25,0.0002982,forming JtQJ matrix
+13:57:25,4.5e-05,commencing to scale JtQJ matrix- first SVD...
+13:57:25,8.5e-06,starting REDSVD
+13:57:25,2.15e-05,retrieving REDSVD components
+13:57:25,9.1e-06,trimming REDSVD components to 5elements
+13:57:25,7.3e-06,done REDSVD
+13:57:25,1.14e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,4.9e-06,JS
+13:57:25,1.11e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+13:57:25,2.83e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,9.8e-06,commencing SVD factorization of lambda-scaled JtQJ
+13:57:25,1.05e-05,starting REDSVD
+13:57:25,2.93e-05,retrieving REDSVD components
+13:57:25,1.32e-05,trimming REDSVD components to 6elements
+13:57:25,1.12e-05,done REDSVD
+13:57:25,9.6e-06,SVD factorization complete
+13:57:25,0.0001001,commencing linear algebra multiplication to compute upgrade
+13:57:25,1.15e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 6: cols = 8: size = 48: nonzeros = 36
+13:57:25,6.7e-06,U info: rows = 8: cols = 6: size = 48: nonzeros = 36
+13:57:25,5.9e-06,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+13:57:25,4.58e-05,linear algebra multiplication to compute upgrade complete
+13:57:25,1.77e-05,commencing check of parameter bounds
+13:57:25,7.4e-06,limiting out of bounds pars
+13:57:25,1e-05,change limit/bound enforcement for lambda 100: , scaling factor: 1
+13:57:25,5.3e-06,checking for denormal floating point values
+13:57:25,5.5e-06,transforming upgrade pars to model pars
+13:57:25,5.6e-06,writing upgrade vector to csv file
+13:57:25,0.0002636,beginning upgrade vector calculations, lambda = 1000
+13:57:25,0.0001694,commencing calculation of upgrade vector
+13:57:25,0.0002554,forming JtQJ matrix
+13:57:25,4.23e-05,commencing to scale JtQJ matrix- first SVD...
+13:57:25,9.1e-06,starting REDSVD
+13:57:25,2.91e-05,retrieving REDSVD components
+13:57:25,1.2e-05,trimming REDSVD components to 5elements
+13:57:25,9.2e-06,done REDSVD
+13:57:25,1.65e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,0.0002499,JS
+13:57:25,3.27e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+13:57:25,4.45e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,9.7e-06,commencing SVD factorization of lambda-scaled JtQJ
+13:57:25,8.1e-06,starting REDSVD
+13:57:25,3.01e-05,retrieving REDSVD components
+13:57:25,1.44e-05,trimming REDSVD components to 6elements
+13:57:25,1.12e-05,done REDSVD
+13:57:25,8.6e-06,SVD factorization complete
+13:57:25,0.0001397,commencing linear algebra multiplication to compute upgrade
+13:57:25,1.05e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 6: cols = 8: size = 48: nonzeros = 36
+13:57:25,9.4e-06,U info: rows = 8: cols = 6: size = 48: nonzeros = 36
+13:57:25,9.3e-06,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+13:57:25,6.24e-05,linear algebra multiplication to compute upgrade complete
+13:57:25,2.54e-05,commencing check of parameter bounds and gradients
+13:57:25,1.15e-05,commencing calculation of upgrade vector
+13:57:25,0.0002938,forming JtQJ matrix
+13:57:25,3.87e-05,commencing to scale JtQJ matrix- first SVD...
+13:57:25,8.8e-06,starting REDSVD
+13:57:25,2.62e-05,retrieving REDSVD components
+13:57:25,1.22e-05,trimming REDSVD components to 5elements
+13:57:25,1e-05,done REDSVD
+13:57:25,1.59e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,8.4e-06,JS
+13:57:25,1.62e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+13:57:25,3.88e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6
+13:57:25,8.3e-06,commencing SVD factorization of lambda-scaled JtQJ
+13:57:25,7.4e-06,starting REDSVD
+13:57:25,2.72e-05,retrieving REDSVD components
+13:57:25,1.22e-05,trimming REDSVD components to 6elements
+13:57:25,9.4e-06,done REDSVD
+13:57:25,7.7e-06,SVD factorization complete
+13:57:25,0.0001437,commencing linear algebra multiplication to compute upgrade
+13:57:25,1.1e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 6Vt info: rows = 6: cols = 8: size = 48: nonzeros = 36
+13:57:25,9.6e-06,U info: rows = 8: cols = 6: size = 48: nonzeros = 36
+13:57:25,9.5e-06,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 720
+13:57:25,5.99e-05,linear algebra multiplication to compute upgrade complete
+13:57:25,2.46e-05,commencing check of parameter bounds
+13:57:25,1.09e-05,limiting out of bounds pars
+13:57:25,1.54e-05,change limit/bound enforcement for lambda 1000: , scaling factor: 1
+13:57:25,7.9e-06,checking for denormal floating point values
+13:57:25,8.1e-06,transforming upgrade pars to model pars
+13:57:25,8.3e-06,writing upgrade vector to csv file
+13:57:25,0.0015992,LinearAnalysis::glm_iter_fosm
+13:57:25,0.0001344,starting FOSM uncertainty analyses for iteration 1
+13:57:25,0.0024468,loading obscov
+13:57:25,6.64e-05,loading parcov
+13:57:25,0.0004544,set_predictions
+13:57:25,4.47e-05,parameter fosm calcs
+13:57:25,8.8e-06,LinearAnalysis::calc_posterior
+13:57:25,5.9e-06,LinearAnalysis::align
+13:57:25,0.0001354,LinearAnalysis::prior_prediction_variance()::invert obscov
+13:57:25,9.7e-06,inverting diagonal matrix in place
+13:57:25,1.21e-05,LinearAnalysis::calc_posterior() form JtQJ
+13:57:25,4.4e-05,LinearAnalysis::calc_posterior() invert prior parcov
+13:57:25,2.02e-05,LinearAnalysis::calc_posterior() form posterior parcov
+13:57:25,9.2e-06,LinearAnalysis::calc_posterior() invert posterior parcov
+13:57:25,4.9e-06,inverting non-diagonal matrix in place
+15:12:33,4507.38,completed iteration 2
+15:12:33,0.0181802,beginning iteration 3
+15:12:33,0.0002025,commencing to build jacobian parameter sets
+15:12:33,0.003384,jacobian parameter sets built, commencing model runs
+16:57:44,6311.41,jacobian runs complete, processing runs
+16:57:44,0.0069721,processing jacobian runs complete
+16:57:44,6.36e-05,saving jacobian and sen files
+16:57:44,0.0084526,commencing calculation of upgrade vector
+16:57:44,0.0005823,forming JtQJ matrix
+16:57:44,7.34e-05,commencing to scale JtQJ matrix- first SVD...
+16:57:44,0.0002737,starting REDSVD
+16:57:44,0.00084,retrieving REDSVD components
+16:57:44,9.03e-05,trimming REDSVD components to 4elements
+16:57:44,2.32e-05,done REDSVD
+16:57:44,3.43e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,9.8e-06,JS
+16:57:44,2.07e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+16:57:44,5.16e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,1.17e-05,commencing SVD factorization of lambda-scaled JtQJ
+16:57:44,1.33e-05,starting REDSVD
+16:57:44,2.77e-05,retrieving REDSVD components
+16:57:44,1.31e-05,trimming REDSVD components to 4elements
+16:57:44,9.5e-06,done REDSVD
+16:57:44,8.9e-06,SVD factorization complete
+16:57:44,0.0013599,commencing linear algebra multiplication to compute upgrade
+16:57:44,2.62e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8Vt info: rows = 4: cols = 8: size = 32: nonzeros = 32
+16:57:44,1.16e-05,U info: rows = 8: cols = 4: size = 32: nonzeros = 32
+16:57:44,1.03e-05,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 790
+16:57:44,0.0001376,linear algebra multiplication to compute upgrade complete
+16:57:44,4.4e-05,commencing check of parameter bounds and gradients
+16:57:44,0.0062002,beginning upgrade vector calculations, lambda = 0.1
+16:57:44,0.0003373,commencing calculation of upgrade vector
+16:57:44,0.0004416,forming JtQJ matrix
+16:57:44,5.33e-05,commencing to scale JtQJ matrix- first SVD...
+16:57:44,1.28e-05,starting REDSVD
+16:57:44,3.93e-05,retrieving REDSVD components
+16:57:44,1.6e-05,trimming REDSVD components to 4elements
+16:57:44,1.19e-05,done REDSVD
+16:57:44,2.17e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,9.8e-06,JS
+16:57:44,1.86e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+16:57:44,5.21e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,1.42e-05,commencing SVD factorization of lambda-scaled JtQJ
+16:57:44,9.6e-06,starting REDSVD
+16:57:44,2.94e-05,retrieving REDSVD components
+16:57:44,1.48e-05,trimming REDSVD components to 5elements
+16:57:44,1.38e-05,done REDSVD
+16:57:44,9.9e-06,SVD factorization complete
+16:57:44,0.0001546,commencing linear algebra multiplication to compute upgrade
+16:57:44,1.21e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8Vt info: rows = 5: cols = 8: size = 40: nonzeros = 40
+16:57:44,1.02e-05,U info: rows = 8: cols = 5: size = 40: nonzeros = 40
+16:57:44,1.19e-05,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 790
+16:57:44,7.72e-05,linear algebra multiplication to compute upgrade complete
+16:57:44,3e-05,commencing check of parameter bounds and gradients
+16:57:44,1.62e-05,commencing calculation of upgrade vector
+16:57:44,0.0003434,forming JtQJ matrix
+16:57:44,4.76e-05,commencing to scale JtQJ matrix- first SVD...
+16:57:44,1.13e-05,starting REDSVD
+16:57:44,3.04e-05,retrieving REDSVD components
+16:57:44,1.37e-05,trimming REDSVD components to 4elements
+16:57:44,2.98e-05,done REDSVD
+16:57:44,1.87e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,8.7e-06,JS
+16:57:44,1.8e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+16:57:44,4.72e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,1.01e-05,commencing SVD factorization of lambda-scaled JtQJ
+16:57:44,8.6e-06,starting REDSVD
+16:57:44,2.77e-05,retrieving REDSVD components
+16:57:44,1.39e-05,trimming REDSVD components to 5elements
+16:57:44,1.18e-05,done REDSVD
+16:57:44,9.4e-06,SVD factorization complete
+16:57:44,0.0001505,commencing linear algebra multiplication to compute upgrade
+16:57:44,1.21e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8Vt info: rows = 5: cols = 8: size = 40: nonzeros = 40
+16:57:44,1.09e-05,U info: rows = 8: cols = 5: size = 40: nonzeros = 40
+16:57:44,1.04e-05,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 790
+16:57:44,6.69e-05,linear algebra multiplication to compute upgrade complete
+16:57:44,2.86e-05,commencing check of parameter bounds
+16:57:44,1.27e-05,limiting out of bounds pars
+16:57:44,2.59e-05,change limit/bound enforcement for lambda 0.1: , scaling factor: 1
+16:57:44,1.08e-05,checking for denormal floating point values
+16:57:44,1.79e-05,transforming upgrade pars to model pars
+16:57:44,1.3e-05,writing upgrade vector to csv file
+16:57:44,0.0040095,beginning upgrade vector calculations, lambda = 1
+16:57:44,0.0003373,commencing calculation of upgrade vector
+16:57:44,0.0005308,forming JtQJ matrix
+16:57:44,7.02e-05,commencing to scale JtQJ matrix- first SVD...
+16:57:44,1.41e-05,starting REDSVD
+16:57:44,3.93e-05,retrieving REDSVD components
+16:57:44,1.57e-05,trimming REDSVD components to 4elements
+16:57:44,1.24e-05,done REDSVD
+16:57:44,2.21e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,9.9e-06,JS
+16:57:44,1.81e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+16:57:44,4.26e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,7.5e-06,commencing SVD factorization of lambda-scaled JtQJ
+16:57:44,7e-06,starting REDSVD
+16:57:44,2.53e-05,retrieving REDSVD components
+16:57:44,1.17e-05,trimming REDSVD components to 5elements
+16:57:44,1.37e-05,done REDSVD
+16:57:44,1.06e-05,SVD factorization complete
+16:57:44,0.0001198,commencing linear algebra multiplication to compute upgrade
+16:57:44,8e-06,S info: rows = 8: cols = 8: size = 64: nonzeros = 8Vt info: rows = 5: cols = 8: size = 40: nonzeros = 40
+16:57:44,6.3e-06,U info: rows = 8: cols = 5: size = 40: nonzeros = 40
+16:57:44,6.1e-06,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 790
+16:57:44,6.8e-05,linear algebra multiplication to compute upgrade complete
+16:57:44,2.6e-05,commencing check of parameter bounds and gradients
+16:57:44,1.03e-05,commencing calculation of upgrade vector
+16:57:44,0.0002968,forming JtQJ matrix
+16:57:44,4.75e-05,commencing to scale JtQJ matrix- first SVD...
+16:57:44,1.22e-05,starting REDSVD
+16:57:44,2.76e-05,retrieving REDSVD components
+16:57:44,1.55e-05,trimming REDSVD components to 4elements
+16:57:44,8.3e-06,done REDSVD
+16:57:44,1.19e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,5e-06,JS
+16:57:44,1.21e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+16:57:44,3.13e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,5.3e-06,commencing SVD factorization of lambda-scaled JtQJ
+16:57:44,5e-06,starting REDSVD
+16:57:44,1.94e-05,retrieving REDSVD components
+16:57:44,7.7e-06,trimming REDSVD components to 5elements
+16:57:44,6.3e-06,done REDSVD
+16:57:44,5e-06,SVD factorization complete
+16:57:44,9.53e-05,commencing linear algebra multiplication to compute upgrade
+16:57:44,6.8e-06,S info: rows = 8: cols = 8: size = 64: nonzeros = 8Vt info: rows = 5: cols = 8: size = 40: nonzeros = 40
+16:57:44,6.2e-06,U info: rows = 8: cols = 5: size = 40: nonzeros = 40
+16:57:44,5.9e-06,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 790
+16:57:44,3.75e-05,linear algebra multiplication to compute upgrade complete
+16:57:44,2.79e-05,commencing check of parameter bounds
+16:57:44,8.2e-06,limiting out of bounds pars
+16:57:44,1.09e-05,change limit/bound enforcement for lambda 1: , scaling factor: 1
+16:57:44,5.1e-06,checking for denormal floating point values
+16:57:44,5.4e-06,transforming upgrade pars to model pars
+16:57:44,6e-06,writing upgrade vector to csv file
+16:57:44,0.0002691,beginning upgrade vector calculations, lambda = 10
+16:57:44,0.0001731,commencing calculation of upgrade vector
+16:57:44,0.0003759,forming JtQJ matrix
+16:57:44,4.78e-05,commencing to scale JtQJ matrix- first SVD...
+16:57:44,1.01e-05,starting REDSVD
+16:57:44,2.89e-05,retrieving REDSVD components
+16:57:44,1.34e-05,trimming REDSVD components to 4elements
+16:57:44,9.9e-06,done REDSVD
+16:57:44,1.75e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,8e-06,JS
+16:57:44,1.82e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+16:57:44,4.22e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,9e-06,commencing SVD factorization of lambda-scaled JtQJ
+16:57:44,8e-06,starting REDSVD
+16:57:44,2.84e-05,retrieving REDSVD components
+16:57:44,1.23e-05,trimming REDSVD components to 5elements
+16:57:44,1.18e-05,done REDSVD
+16:57:44,8.7e-06,SVD factorization complete
+16:57:44,0.0001546,commencing linear algebra multiplication to compute upgrade
+16:57:44,1.34e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8Vt info: rows = 5: cols = 8: size = 40: nonzeros = 40
+16:57:44,1.06e-05,U info: rows = 8: cols = 5: size = 40: nonzeros = 40
+16:57:44,1.06e-05,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 790
+16:57:44,0.0001203,linear algebra multiplication to compute upgrade complete
+16:57:44,3.73e-05,commencing check of parameter bounds and gradients
+16:57:44,1.43e-05,commencing calculation of upgrade vector
+16:57:44,0.0003445,forming JtQJ matrix
+16:57:44,4.35e-05,commencing to scale JtQJ matrix- first SVD...
+16:57:44,1e-05,starting REDSVD
+16:57:44,2.83e-05,retrieving REDSVD components
+16:57:44,1.39e-05,trimming REDSVD components to 4elements
+16:57:44,1.15e-05,done REDSVD
+16:57:44,1.83e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,9e-06,JS
+16:57:44,1.8e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+16:57:44,4.44e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,9.5e-06,commencing SVD factorization of lambda-scaled JtQJ
+16:57:44,7.7e-06,starting REDSVD
+16:57:44,2.89e-05,retrieving REDSVD components
+16:57:44,1.39e-05,trimming REDSVD components to 5elements
+16:57:44,1.11e-05,done REDSVD
+16:57:44,9e-06,SVD factorization complete
+16:57:44,0.0001499,commencing linear algebra multiplication to compute upgrade
+16:57:44,1.19e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8Vt info: rows = 5: cols = 8: size = 40: nonzeros = 40
+16:57:44,1.11e-05,U info: rows = 8: cols = 5: size = 40: nonzeros = 40
+16:57:44,1e-05,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 790
+16:57:44,5.19e-05,linear algebra multiplication to compute upgrade complete
+16:57:44,3.64e-05,commencing check of parameter bounds
+16:57:44,1.13e-05,limiting out of bounds pars
+16:57:44,1.54e-05,change limit/bound enforcement for lambda 10: , scaling factor: 1
+16:57:44,8.4e-06,checking for denormal floating point values
+16:57:44,9.2e-06,transforming upgrade pars to model pars
+16:57:44,8.9e-06,writing upgrade vector to csv file
+16:57:44,0.0004267,beginning upgrade vector calculations, lambda = 100
+16:57:44,0.0001441,commencing calculation of upgrade vector
+16:57:44,0.0003516,forming JtQJ matrix
+16:57:44,4.32e-05,commencing to scale JtQJ matrix- first SVD...
+16:57:44,9.7e-06,starting REDSVD
+16:57:44,2.7e-05,retrieving REDSVD components
+16:57:44,1.25e-05,trimming REDSVD components to 4elements
+16:57:44,9.9e-06,done REDSVD
+16:57:44,1.75e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,8.2e-06,JS
+16:57:44,1.84e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+16:57:44,4.25e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,9e-06,commencing SVD factorization of lambda-scaled JtQJ
+16:57:44,8.3e-06,starting REDSVD
+16:57:44,2.87e-05,retrieving REDSVD components
+16:57:44,1.2e-05,trimming REDSVD components to 5elements
+16:57:44,1.19e-05,done REDSVD
+16:57:44,8.4e-06,SVD factorization complete
+16:57:44,0.0001483,commencing linear algebra multiplication to compute upgrade
+16:57:44,1.13e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8Vt info: rows = 5: cols = 8: size = 40: nonzeros = 40
+16:57:44,1.02e-05,U info: rows = 8: cols = 5: size = 40: nonzeros = 40
+16:57:44,1.02e-05,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 790
+16:57:44,6.61e-05,linear algebra multiplication to compute upgrade complete
+16:57:44,2.45e-05,commencing check of parameter bounds and gradients
+16:57:44,1.19e-05,commencing calculation of upgrade vector
+16:57:44,0.0003251,forming JtQJ matrix
+16:57:44,4.38e-05,commencing to scale JtQJ matrix- first SVD...
+16:57:44,9.2e-06,starting REDSVD
+16:57:44,2.55e-05,retrieving REDSVD components
+16:57:44,1.19e-05,trimming REDSVD components to 4elements
+16:57:44,1.08e-05,done REDSVD
+16:57:44,1.65e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,8.1e-06,JS
+16:57:44,1.71e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+16:57:44,4.48e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,1.05e-05,commencing SVD factorization of lambda-scaled JtQJ
+16:57:44,8.1e-06,starting REDSVD
+16:57:44,2.86e-05,retrieving REDSVD components
+16:57:44,1.22e-05,trimming REDSVD components to 5elements
+16:57:44,1.06e-05,done REDSVD
+16:57:44,8.4e-06,SVD factorization complete
+16:57:44,0.0003769,commencing linear algebra multiplication to compute upgrade
+16:57:44,1.36e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8Vt info: rows = 5: cols = 8: size = 40: nonzeros = 40
+16:57:44,1.04e-05,U info: rows = 8: cols = 5: size = 40: nonzeros = 40
+16:57:44,1.01e-05,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 790
+16:57:44,7.11e-05,linear algebra multiplication to compute upgrade complete
+16:57:44,2.53e-05,commencing check of parameter bounds
+16:57:44,1.1e-05,limiting out of bounds pars
+16:57:44,1.5e-05,change limit/bound enforcement for lambda 100: , scaling factor: 1
+16:57:44,8.6e-06,checking for denormal floating point values
+16:57:44,9e-06,transforming upgrade pars to model pars
+16:57:44,9.1e-06,writing upgrade vector to csv file
+16:57:44,0.0003275,beginning upgrade vector calculations, lambda = 1000
+16:57:44,0.00013,commencing calculation of upgrade vector
+16:57:44,0.0003609,forming JtQJ matrix
+16:57:44,4.51e-05,commencing to scale JtQJ matrix- first SVD...
+16:57:44,9.7e-06,starting REDSVD
+16:57:44,2.72e-05,retrieving REDSVD components
+16:57:44,1.27e-05,trimming REDSVD components to 4elements
+16:57:44,9.7e-06,done REDSVD
+16:57:44,1.66e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,7.9e-06,JS
+16:57:44,1.83e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+16:57:44,4.25e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,8.7e-06,commencing SVD factorization of lambda-scaled JtQJ
+16:57:44,8e-06,starting REDSVD
+16:57:44,2.87e-05,retrieving REDSVD components
+16:57:44,1.22e-05,trimming REDSVD components to 5elements
+16:57:44,1.16e-05,done REDSVD
+16:57:44,8.6e-06,SVD factorization complete
+16:57:44,0.0001491,commencing linear algebra multiplication to compute upgrade
+16:57:44,1.14e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8Vt info: rows = 5: cols = 8: size = 40: nonzeros = 40
+16:57:44,1.01e-05,U info: rows = 8: cols = 5: size = 40: nonzeros = 40
+16:57:44,1.01e-05,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 790
+16:57:44,5.21e-05,linear algebra multiplication to compute upgrade complete
+16:57:44,3.49e-05,commencing check of parameter bounds and gradients
+16:57:44,1.27e-05,commencing calculation of upgrade vector
+16:57:44,0.0003269,forming JtQJ matrix
+16:57:44,4.27e-05,commencing to scale JtQJ matrix- first SVD...
+16:57:44,9.4e-06,starting REDSVD
+16:57:44,2.53e-05,retrieving REDSVD components
+16:57:44,1.22e-05,trimming REDSVD components to 4elements
+16:57:44,1.07e-05,done REDSVD
+16:57:44,1.64e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,8.3e-06,JS
+16:57:44,1.81e-05,JS.transpose() * q_mat * JS + lambda * S.transpose() * S
+16:57:44,4.08e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8
+16:57:44,8.9e-06,commencing SVD factorization of lambda-scaled JtQJ
+16:57:44,8e-06,starting REDSVD
+16:57:44,2.83e-05,retrieving REDSVD components
+16:57:44,1.21e-05,trimming REDSVD components to 5elements
+16:57:44,1.03e-05,done REDSVD
+16:57:44,8.7e-06,SVD factorization complete
+16:57:44,0.0001436,commencing linear algebra multiplication to compute upgrade
+16:57:44,1.05e-05,S info: rows = 8: cols = 8: size = 64: nonzeros = 8Vt info: rows = 5: cols = 8: size = 40: nonzeros = 40
+16:57:44,1.05e-05,U info: rows = 8: cols = 5: size = 40: nonzeros = 40
+16:57:44,1e-05,jac info: rows = 135: cols = 8: size = 1080: nonzeros = 790
+16:57:44,8.25e-05,linear algebra multiplication to compute upgrade complete
+16:57:44,2.76e-05,commencing check of parameter bounds
+16:57:44,1.13e-05,limiting out of bounds pars
+16:57:44,1.53e-05,change limit/bound enforcement for lambda 1000: , scaling factor: 1
+16:57:44,8.6e-06,checking for denormal floating point values
+16:57:44,1.25e-05,transforming upgrade pars to model pars
+16:57:44,1.08e-05,writing upgrade vector to csv file
+16:57:44,0.0017865,LinearAnalysis::glm_iter_fosm
+16:57:44,0.0001242,starting FOSM uncertainty analyses for iteration 2
+16:57:44,0.002428,loading obscov
+16:57:44,7.86e-05,loading parcov
+16:57:44,0.0005893,set_predictions
+16:57:44,5.93e-05,parameter fosm calcs
+16:57:44,1.34e-05,LinearAnalysis::calc_posterior
+16:57:44,9.1e-06,LinearAnalysis::align
+16:57:44,0.0001818,LinearAnalysis::prior_prediction_variance()::invert obscov
+16:57:44,1.42e-05,inverting diagonal matrix in place
+16:57:44,1.77e-05,LinearAnalysis::calc_posterior() form JtQJ
+16:57:44,7.6e-05,LinearAnalysis::calc_posterior() invert prior parcov
+16:57:44,2.99e-05,LinearAnalysis::calc_posterior() form posterior parcov
+16:57:44,1.4e-05,LinearAnalysis::calc_posterior() invert posterior parcov
+16:57:44,8.3e-06,inverting non-diagonal matrix in place
+18:12:33,4488.84,completed iteration 3
+18:12:33,0.0166711,FOSM-based posterior unc calcs
+18:12:33,0.000301,starting FOSM uncertainty analyses for iteration -999
+18:12:33,0.001504,loading obscov
+18:12:33,3.9e-05,loading parcov
+18:12:33,0.0003607,set_predictions
+18:12:33,0.0002027,parameter fosm calcs
+18:12:33,1.6e-05,LinearAnalysis::calc_posterior
+18:12:33,6.5e-06,LinearAnalysis::align
+18:12:33,0.0002662,LinearAnalysis::prior_prediction_variance()::invert obscov
+18:12:33,1.66e-05,inverting diagonal matrix in place
+18:12:33,1.53e-05,LinearAnalysis::calc_posterior() form JtQJ
+18:12:33,5.39e-05,LinearAnalysis::calc_posterior() invert prior parcov
+18:12:33,2.2e-05,LinearAnalysis::calc_posterior() form posterior parcov
+18:12:33,1.04e-05,LinearAnalysis::calc_posterior() invert posterior parcov
+18:12:33,5.2e-06,inverting non-diagonal matrix in place
