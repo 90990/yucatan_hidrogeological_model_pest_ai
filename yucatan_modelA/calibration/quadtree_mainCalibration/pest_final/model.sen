@@ -1,0 +1,33 @@
+                    PARAMETER SENSITIVITIES: CASE model
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 1   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   mfgw_rest       pargp        1.00000000000        0.00224669500034    
+   mfgw_upland     pargp        1.00000000000        0.00000000000       
+   mk_rest_l1      pargp        1.00000000000        0.00363738802067    
+   mk_rest_l2      pargp        1.00000000000        0.132939599493      
+   mr_rest         pargp        1.00000000000        0.174999714708      
+   mr_upland       pargp        1.00000000000        0.00000000000       
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 2   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   mfgw_rest       pargp        1.04488334500        0.000373246880673   
+   mfgw_upland     pargp        1.00000000000        0.00000000000       
+   mk_rest_l1      pargp        0.987784495100       0.000248192724907   
+   mk_rest_l2      pargp        1.44685919660        0.110279324199      
+   mr_rest         pargp        1.16127980000        0.143405988270      
+   mr_upland       pargp        1.00000000000        0.00000000000       
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 3   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   mfgw_rest       pargp        1.03751246200        0.000858468815604   
+   mfgw_upland     pargp        1.00000000000        8.11475829059e-16   
+   mk_rest_l1      pargp        0.947525798900       0.00125976140169    
+   mk_rest_l2      pargp        1.67558612970        0.113024735637      
+   mr_rest         pargp        1.30179090000        0.136209813757      
+   mr_upland       pargp        1.00000000000        8.11475829059e-16   
+
+

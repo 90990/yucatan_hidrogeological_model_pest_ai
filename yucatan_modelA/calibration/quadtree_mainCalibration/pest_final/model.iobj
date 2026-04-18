@@ -1,0 +1,5 @@
+iteration,model_runs_completed,total_phi,measurement_phi,regularization_phi,head
+0,0,64.6931,64.6931,0,64.6931
+1,22,62.7799,62.7799,0,62.7799
+2,43,62.6428,62.6428,0,62.6428
+3,70,62.5141,62.5141,0,62.5141
