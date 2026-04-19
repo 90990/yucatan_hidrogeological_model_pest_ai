@@ -12,6 +12,10 @@ The project integrates MODFLOW 6 simulations, PEST++ based calibration, and emul
 | ![Calibrated Case D - Layer 1](yucatan_modelD/calibration/quadtree_mainCalibration/pest_final/quadtree_casoD_calibrado_layer1.png) | ![Calibrated Case D - Layer 2](yucatan_modelD/calibration/quadtree_mainCalibration/pest_final/quadtree_casoD_calibrado_layer2.png) |
 | *Calibrated Case D - Layer 1* | *Calibrated Case D - Layer 2* |
 
+| (c) Discharge Vectors Calibrated Case D - Layer 1 | (d) Discharge Vectors Calibrated Case D - Layer 2 |
+|---|---|
+| ![Discharge Vectors Calibrated Case D - Layer 1](images/dischargeVector_layer1_caseD_quad.png) | ![Discharge Vectors Calibrated Case D - Layer 2](images/dischargeVector_layer1_caseD_quad.png) |
+| *Discharge Vectors Calibrated Case D - Layer 1* | *Discharge Vectors Calibrated Case D - Layer 2* |
 
 ## Repository structure:
 - 'AI/': Scripts for the emulator, training, calibration, and verification scripts
