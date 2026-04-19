@@ -9,9 +9,8 @@ The project integrates MODFLOW 6 simulations, PEST++ based calibration, and emul
 
 | (a) Calibrated Case D - Layer 1 | (b) Calibrated Case D - Layer 2 |
 |---|---|
-| ![Calibrated Case D - Layer 1 ](yucatan_modelD/calibration/quadtree_mainCalibration/pest_final/quadtree_casoD_calibrado_layer1.png)
- | ![Calibrated Case D - Layer 2 ](yucatan_modelD/calibration/quadtree_mainCalibration/pest_final/quadtree_casoD_calibrado_layer2.png)
- | *Calibrated Case D - Layer 1* | *Calibrated Case D - Layer 2* |
+| ![Calibrated Case D - Layer 1](yucatan_modelD/calibration/quadtree_mainCalibration/pest_final/quadtree_casoD_calibrado_layer1.png) | ![Calibrated Case D - Layer 2](yucatan_modelD/calibration/quadtree_mainCalibration/pest_final/quadtree_casoD_calibrado_layer2.png) |
+| *Calibrated Case D - Layer 1* | *Calibrated Case D - Layer 2* |
 
 
 ## Repository structure:
