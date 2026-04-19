@@ -1,8 +1,10 @@
 ## Yucatan_hidrogeological_model_PEST_AI
 
 ## Overview:
-This repository contains numerical and AI-assisted workflows for hydrogeological modeling of the Yucatán karst aquifer.
+This repository contains numerical and AI-assisted workflows for steady-state hydrogeological 2-layers modeling of the Yucatán karst aquifer.
 The project integrates MODFLOW 6 simulations, PEST++ based calibration, and emulator-based machine learning tools for parameter exploration and model evaluation.
+
+![Calibrated Case D - Layer 1 ](yucatan_modelD/calibration/quadtree_mainCalibration/pest_final/quadtree_casoD_calibrado_layer1.png)
 
 ## Repository structure:
 - 'AI/': Scripts for the emulator, training, calibration, and verification scripts
