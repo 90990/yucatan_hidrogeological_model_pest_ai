@@ -4,7 +4,15 @@
 This repository contains numerical and AI-assisted workflows for steady-state hydrogeological 2-layers modeling of the Yucatán karst aquifer.
 The project integrates MODFLOW 6 simulations, PEST++ based calibration, and emulator-based machine learning tools for parameter exploration and model evaluation.
 
-![Calibrated Case D - Layer 1 ](yucatan_modelD/calibration/quadtree_mainCalibration/pest_final/quadtree_casoD_calibrado_layer1.png)
+
+## Example with labels
+
+| (a) Calibrated Case D - Layer 1 | (b) Calibrated Case D - Layer 2 |
+|---|---|
+| ![Calibrated Case D - Layer 1 ](yucatan_modelD/calibration/quadtree_mainCalibration/pest_final/quadtree_casoD_calibrado_layer1.png)
+ | ![Calibrated Case D - Layer 2 ](yucatan_modelD/calibration/quadtree_mainCalibration/pest_final/quadtree_casoD_calibrado_layer2.png)
+ | *Calibrated Case D - Layer 1* | *Calibrated Case D - Layer 2* |
+
 
 ## Repository structure:
 - 'AI/': Scripts for the emulator, training, calibration, and verification scripts
